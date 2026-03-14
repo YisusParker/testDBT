@@ -30,7 +30,7 @@ cd dbt_project_exam
 ## 2. Crear entorno virtual de Python
 
 ```bash
-python3.11 -m venv dbt-env
+py -3.11 -m venv venv
 source dbt-env/bin/activate
 ```
 
