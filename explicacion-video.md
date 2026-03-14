@@ -1,7 +1,7 @@
 # Guion del Video – Examen I DBT & BigQuery
 
 Duración sugerida del video: **4–6 minutos**
-Participantes: **Natalia, Villadiego, Sharick, Jesus, Carlos, Anghely**
+Participantes: **Natalia,Carlos,Jesus, Villadiego, Sharick, Anghely**
 
 El objetivo del video es demostrar el flujo completo de **transformación de datos usando DBT y BigQuery**.
 
@@ -20,7 +20,7 @@ El objetivo del video es demostrar el flujo completo de **transformación de dat
 
 ### Qué decir
 
-> Hola, somos Natalia, Villadiego y Sharick.
+> Hola, somos Natalia, Villadiego, Sharick y Anghely.
 > En este video presentaremos nuestro proyecto para el Examen I de DBT.
 > En este proyecto demostramos un flujo completo de transformación de datos utilizando **DBT y Google BigQuery**.
 > El proceso incluye autenticación con Google Cloud, carga de datos mediante **seeds**, transformación de datos usando **modelos DBT** y visualización de los resultados finales en **BigQuery**.
@@ -94,7 +94,7 @@ All checks passed
 
 ### Quién habla
 
-**Natalia**
+**Anghely**
 
 ### Qué mostrar en pantalla
 
@@ -201,7 +201,7 @@ Completed successfully
 
 ### Quién habla
 
-**Villadiego**
+**Anghely**
 
 ### Qué mostrar en pantalla
 
@@ -251,4 +251,5 @@ BigQuery con el resultado final de la consulta.
 > Esto demuestra un flujo completo de **ingeniería de datos moderno utilizando DBT**.
 
 ---
+
 
