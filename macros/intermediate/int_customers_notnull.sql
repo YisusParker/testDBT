@@ -1,9 +1,0 @@
-select 
-    id_cliente,
-    nombre,
-    pais,
-    ciudad,
-    clase
-from {{ ref('stg_customers') }}
-where id_cliente is not NULL
-
