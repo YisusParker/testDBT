@@ -1,0 +1,63 @@
+version: 2
+
+sources:
+  - name: bigquery_source
+    schema: raw
+
+    tables:
+      - name: customers
+      - name: employees
+      - name: orders
+      - name: shippers
+
+models:
+    - name: stg_customers
+      description: "customers"
+      columns:
+          - name: id
+            tests:
+                - unique
+                - not_null
+          - name: name
+          - name: contact
+          - name: address
+          - name: city
+          - name: postal_code
+          - name: country
+
+    - name: stg_employees
+      description: "employees"
+      columns:
+          - name: employee_id
+            tests:
+                - unique
+                - not_null
+          - name: last_name
+          - name: first_name
+          - name: birthdate
+          - name: photo
+          - name: notes
+
+    - name: stg_orders
+      description: "orders"
+      columns:
+          - name: id
+            tests:
+                - unique
+                - not_null
+          - name: customer_id
+          - name: employee_id
+          - name: date
+          - name: shipper_id
+
+    - name: stg_shippers
+      description: "customers"
+      columns:
+          - name: id
+            tests:
+                - unique
+                - not_null
+          - name: name
+          - name: phone
+
+
