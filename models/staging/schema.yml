@@ -1,0 +1,82 @@
+version: 2
+
+sources:
+  - name: bigquery_source
+    schema: exam2
+
+    tables:
+      - name: customers
+      - name: employees
+      - name: orders
+      - name: shippers
+
+models:
+  - name: stg_customers
+    description: "Customers staging model"
+    columns:
+      - name: id_cliente
+        tests:
+          - unique
+          - not_null
+      - name: nombre
+      - name: contacto
+      - name: direccion
+      - name: ciudad
+      - name: codigo_postal
+      - name: pais
+
+  - name: stg_employees
+    description: "Employees staging model"
+    columns:
+      - name: id_empleado
+        tests:
+          - unique
+          - not_null
+      - name: apellido
+      - name: nombre
+      - name: fecha_nacimiento
+      - name: foto
+      - name: notas
+
+  - name: stg_orders
+    description: "Orders staging model"
+    columns:
+      - name: id_pedido
+        tests:
+          - unique:
+              config:
+                severity: error
+          - not_null:
+              config:
+                severity: error
+      - name: fk_cliente
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: id_cliente
+      - name: fk_empleado
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_employees')
+              field: id_empleado
+      - name: fecha_pedido
+      - name: fk_transporte
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_shippers')
+              field: id_transporte
+
+  - name: stg_shippers
+    description: "Shippers staging model"
+    columns:
+      - name: id_transporte
+        tests:
+          - unique
+          - not_null
+      - name: nombre_transporte
+      - name: telefono_transporte
+
+
