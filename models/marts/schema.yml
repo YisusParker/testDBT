@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: shipper_ranking
+    description: "Ranking of shippers by delivered orders"
+    columns:
+      - name: id_transporte
+        tests:
+          - not_null
+      - name: cantidad_pedidos
+        tests:
+          - not_null
+
+  - name: recognized_employees
+    description: "Employees ranked and assigned a status"
+    columns:
+      - name: id_empleado
+        tests:
+          - not_null
+      - name: cantidad_ventas
+        tests:
+          - not_null
+      - name: estado
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["recognized", "normal"]
+
+  - name: eu_discount
+    description: "EU customers and applied discount"
+    columns:
+      - name: id_cliente
+        tests:
+          - not_null
+      - name: descuento
+        tests:
+          - not_null

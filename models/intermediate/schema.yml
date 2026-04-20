@@ -1,0 +1,59 @@
+version: 2
+
+models:
+  - name: int_orders_employees
+    description: "Orders joined with employees"
+    columns:
+      - name: id_pedido
+        tests:
+          - not_null
+          - unique
+      - name: fk_cliente
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: id_cliente
+      - name: id_empleado
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_employees')
+              field: id_empleado
+
+  - name: int_orders_shippers
+    description: "Orders joined with shippers"
+    columns:
+      - name: id_pedido
+        tests:
+          - not_null
+          - unique
+      - name: fk_cliente
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: id_cliente
+      - name: id_transporte
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_shippers')
+              field: id_transporte
+
+  - name: int_customers_in_eu
+    description: "Customers flagged by EU membership"
+    columns:
+      - name: id_cliente
+        tests:
+          - not_null
+          - unique
+      - name: estado
+        tests:
+          - not_null:
+              config:
+                severity: error
+          - accepted_values:
+              values: ["EU", "otro"]
+              config:
+                severity: warn

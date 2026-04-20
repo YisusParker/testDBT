@@ -2237,3 +2237,2488 @@ ORDER BY cantidad_pedidos DESC;
 [0m21:59:28.559096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF70A57DF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF70A57680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF71C26B50>]}
 [0m21:59:28.559466 [debug] [MainThread]: Flushing usage events
 [0m21:59:29.307781 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:52:22.490644 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffa537ca290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffa56735a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffa537cbb10>]}
+
+
+============================== 11:52:22.494914 | dbff3e9d-0abb-4c68-83ad-6e70d6dc0e42 ==============================
+[0m11:52:22.494914 [info ] [MainThread]: Running with dbt=1.11.7
+[0m11:52:22.495377 [debug] [MainThread]: running dbt with arguments {'profiles_dir': '/home/yisusparker/.dbt', 'introspect': 'True', 'debug': 'False', 'quiet': 'False', 'version_check': 'True', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'empty': 'None', 'write_json': 'True', 'use_experimental_parser': 'False', 'partial_parse': 'True', 'invocation_command': 'dbt test --project-dir /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam', 'send_anonymous_usage_stats': 'True', 'log_path': '/home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/logs', 'printer_width': '80', 'static_parser': 'True', 'warn_error': 'None', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'fail_fast': 'False', 'log_format': 'default', 'use_colors': 'True', 'no_print': 'None'}
+[0m11:52:22.497357 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'dbt_demo'
+[0m11:52:22.498493 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": false, "command_wall_clock_time": 0.04577723, "process_in_blocks": "44952", "process_kernel_time": 0.131485, "process_mem_max_rss": "102376", "process_out_blocks": "16", "process_user_time": 0.847418}
+[0m11:52:22.498924 [debug] [MainThread]: Command `dbt test` failed at 11:52:22.498854 after 0.05 seconds
+[0m11:52:22.499252 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffa537d43d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffa5395bd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffa539584d0>]}
+[0m11:52:22.499590 [debug] [MainThread]: Flushing usage events
+[0m11:52:22.650151 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:11:02.068861 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8e4044ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8e4044750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8e40440d0>]}
+
+
+============================== 12:11:02.073455 | 4ee1ae8a-dbf2-4d8c-9bdf-6074d3b31255 ==============================
+[0m12:11:02.073455 [info ] [MainThread]: Running with dbt=1.11.7
+[0m12:11:02.073909 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'printer_width': '80', 'target_path': 'None', 'empty': 'None', 'warn_error': 'None', 'quiet': 'False', 'fail_fast': 'False', 'write_json': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'version_check': 'True', 'static_parser': 'True', 'partial_parse': 'True', 'profiles_dir': '/home/yisusparker/.dbt', 'log_path': '/home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/logs', 'use_colors': 'True', 'cache_selected_only': 'False', 'invocation_command': 'dbt debug --project-dir /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'debug': 'False', 'log_format': 'default', 'introspect': 'True'}
+[0m12:11:02.081846 [info ] [MainThread]: dbt version: 1.11.7
+[0m12:11:02.082209 [info ] [MainThread]: python version: 3.11.15
+[0m12:11:02.082482 [info ] [MainThread]: python path: /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt-env/bin/python3.11
+[0m12:11:02.082718 [info ] [MainThread]: os info: Linux-6.19.11-200.fc43.x86_64-x86_64-with-glibc2.42
+[0m12:11:03.178889 [info ] [MainThread]: Using profiles dir at /home/yisusparker/.dbt
+[0m12:11:03.179322 [info ] [MainThread]: Using profiles.yml file at /home/yisusparker/.dbt/profiles.yml
+[0m12:11:03.179601 [info ] [MainThread]: Using dbt_project.yml file at /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/dbt_project.yml
+[0m12:11:03.179845 [info ] [MainThread]: adapter type: bigquery
+[0m12:11:03.180065 [info ] [MainThread]: adapter version: 1.11.1
+[0m12:11:03.244159 [info ] [MainThread]: Configuration:
+[0m12:11:03.244567 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:11:03.244832 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m12:11:03.245059 [info ] [MainThread]: Required dependencies:
+[0m12:11:03.245298 [debug] [MainThread]: Executing "git --help"
+[0m12:11:03.246975 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:11:03.247551 [debug] [MainThread]: STDERR: "b''"
+[0m12:11:03.247941 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:11:03.248340 [info ] [MainThread]: Connection:
+[0m12:11:03.248767 [info ] [MainThread]:   method: service-account
+[0m12:11:03.249146 [info ] [MainThread]:   database: data-transformation-486715
+[0m12:11:03.249529 [info ] [MainThread]:   execution_project: data-transformation-486715
+[0m12:11:03.249948 [info ] [MainThread]:   schema: exam2_transformed
+[0m12:11:03.250345 [info ] [MainThread]:   location: US
+[0m12:11:03.250739 [info ] [MainThread]:   priority: interactive
+[0m12:11:03.250998 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m12:11:03.251269 [info ] [MainThread]:   impersonate_service_account: None
+[0m12:11:03.251635 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m12:11:03.251903 [info ] [MainThread]:   job_retries: 1
+[0m12:11:03.252289 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m12:11:03.252700 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m12:11:03.252998 [info ] [MainThread]:   timeout_seconds: 300
+[0m12:11:03.253216 [info ] [MainThread]:   client_id: None
+[0m12:11:03.253428 [info ] [MainThread]:   token_uri: None
+[0m12:11:03.253647 [info ] [MainThread]:   compute_region: None
+[0m12:11:03.253844 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m12:11:03.254035 [info ] [MainThread]:   gcs_bucket: None
+[0m12:11:03.254232 [info ] [MainThread]:   dataproc_batch: None
+[0m12:11:03.254565 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m12:11:03.329556 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m12:11:03.329903 [debug] [MainThread]: On debug: select 1 as id
+[0m12:11:03.330180 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:13:34.761464 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6e2f47210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6e3d61250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6e2f47590>]}
+
+
+============================== 12:13:34.764143 | 64cc83b0-7008-489f-9673-c7ee1612d0b4 ==============================
+[0m12:13:34.764143 [info ] [MainThread]: Running with dbt=1.11.7
+[0m12:13:34.764544 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'write_json': 'True', 'log_cache_events': 'False', 'introspect': 'True', 'log_path': '/home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/logs', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'printer_width': '80', 'empty': 'None', 'static_parser': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'no_print': 'None', 'fail_fast': 'False', 'quiet': 'False', 'debug': 'False', 'version_check': 'True', 'warn_error': 'None', 'use_experimental_parser': 'False', 'profiles_dir': '/home/yisusparker/.dbt', 'partial_parse': 'True', 'invocation_command': 'dbt debug --project-dir /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager'}
+[0m12:13:34.769142 [info ] [MainThread]: dbt version: 1.11.7
+[0m12:13:34.769424 [info ] [MainThread]: python version: 3.11.15
+[0m12:13:34.769658 [info ] [MainThread]: python path: /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt-env/bin/python3.11
+[0m12:13:34.769847 [info ] [MainThread]: os info: Linux-6.19.11-200.fc43.x86_64-x86_64-with-glibc2.42
+[0m12:13:35.484974 [info ] [MainThread]: Using profiles dir at /home/yisusparker/.dbt
+[0m12:13:35.485364 [info ] [MainThread]: Using profiles.yml file at /home/yisusparker/.dbt/profiles.yml
+[0m12:13:35.485600 [info ] [MainThread]: Using dbt_project.yml file at /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/dbt_project.yml
+[0m12:13:35.485785 [info ] [MainThread]: adapter type: bigquery
+[0m12:13:35.485958 [info ] [MainThread]: adapter version: 1.11.1
+[0m12:13:35.548258 [info ] [MainThread]: Configuration:
+[0m12:13:35.548589 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:13:35.548793 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m12:13:35.548979 [info ] [MainThread]: Required dependencies:
+[0m12:13:35.549172 [debug] [MainThread]: Executing "git --help"
+[0m12:13:35.550752 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:13:35.551279 [debug] [MainThread]: STDERR: "b''"
+[0m12:13:35.551645 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:13:35.551994 [info ] [MainThread]: Connection:
+[0m12:13:35.552351 [info ] [MainThread]:   method: service-account
+[0m12:13:35.552685 [info ] [MainThread]:   database: data-transformation-486715
+[0m12:13:35.553002 [info ] [MainThread]:   execution_project: data-transformation-486715
+[0m12:13:35.553310 [info ] [MainThread]:   schema: exam2_transformed
+[0m12:13:35.553626 [info ] [MainThread]:   location: US
+[0m12:13:35.553936 [info ] [MainThread]:   priority: interactive
+[0m12:13:35.554263 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m12:13:35.554598 [info ] [MainThread]:   impersonate_service_account: None
+[0m12:13:35.554906 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m12:13:35.555214 [info ] [MainThread]:   job_retries: 1
+[0m12:13:35.555546 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m12:13:35.555880 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m12:13:35.556214 [info ] [MainThread]:   timeout_seconds: 300
+[0m12:13:35.556564 [info ] [MainThread]:   client_id: None
+[0m12:13:35.556890 [info ] [MainThread]:   token_uri: None
+[0m12:13:35.557232 [info ] [MainThread]:   compute_region: None
+[0m12:13:35.557604 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m12:13:35.557860 [info ] [MainThread]:   gcs_bucket: None
+[0m12:13:35.558050 [info ] [MainThread]:   dataproc_batch: None
+[0m12:13:35.558326 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m12:13:35.625154 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m12:13:35.625525 [debug] [MainThread]: On debug: select 1 as id
+[0m12:13:35.625856 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:13:37.176739 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:eae40a8a-db39-4f54-bf3d-e07e2b5a18bd&page=queryresults
+[0m12:13:37.494058 [debug] [MainThread]: SQL status: OK in 0.316 seconds
+[0m12:13:37.820823 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:13:37.821235 [info ] [MainThread]: [32mAll checks passed![0m
+[0m12:13:37.821644 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 3.0933483, "process_in_blocks": "928", "process_kernel_time": 0.193638, "process_mem_max_rss": "232260", "process_out_blocks": "16", "process_user_time": 2.750451}
+[0m12:13:37.821990 [debug] [MainThread]: Command `dbt debug` succeeded at 12:13:37.821928 after 3.09 seconds
+[0m12:13:37.822222 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:13:37.822498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6e2dbe910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6e75f96d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6e5d4cc50>]}
+[0m12:13:37.822793 [debug] [MainThread]: Flushing usage events
+[0m12:13:38.213309 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:14:08.405815 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdaf0cfafd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdaf0e9d550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdaf0da06d0>]}
+
+
+============================== 12:14:08.408536 | 0ac10cda-7433-41bd-93ac-9b9fd083ab7a ==============================
+[0m12:14:08.408536 [info ] [MainThread]: Running with dbt=1.11.7
+[0m12:14:08.408901 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'target_path': 'None', 'indirect_selection': 'eager', 'write_json': 'True', 'empty': 'None', 'log_format': 'default', 'use_colors': 'True', 'debug': 'False', 'quiet': 'False', 'no_print': 'None', 'profiles_dir': '/home/yisusparker/.dbt', 'send_anonymous_usage_stats': 'True', 'log_path': '/home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/logs', 'introspect': 'True', 'log_cache_events': 'False', 'version_check': 'True', 'printer_width': '80', 'invocation_command': 'dbt seed', 'use_experimental_parser': 'False'}
+[0m12:14:09.199788 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0ac10cda-7433-41bd-93ac-9b9fd083ab7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdaf0d07ad0>]}
+[0m12:14:09.237343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0ac10cda-7433-41bd-93ac-9b9fd083ab7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdaf3a97690>]}
+[0m12:14:09.237847 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m12:14:09.309840 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m12:14:09.372502 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m12:14:09.372835 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m12:14:09.373095 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0ac10cda-7433-41bd-93ac-9b9fd083ab7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdaf1b36f90>]}
+[0m12:14:10.215762 [warn ] [MainThread]: [[33mWARNING[0m][MissingArgumentsPropertyInGenericTestDeprecation]: Deprecated
+functionality
+Found top-level arguments to test `relationships` defined on
+'int_orders_employees' in package 'my_new_project'
+(models/intermediate/schema.yml). Arguments to generic tests should be nested
+under the `arguments` property.
+[0m12:14:10.216160 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '0ac10cda-7433-41bd-93ac-9b9fd083ab7a', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdabd8ddbd0>]}
+[0m12:14:10.404167 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0ac10cda-7433-41bd-93ac-9b9fd083ab7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdabd5f5e50>]}
+[0m12:14:10.475298 [debug] [MainThread]: Wrote artifact WritableManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/manifest.json
+[0m12:14:10.476618 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/semantic_manifest.json
+[0m12:14:10.490225 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0ac10cda-7433-41bd-93ac-9b9fd083ab7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdabd2e3f50>]}
+[0m12:14:10.490710 [info ] [MainThread]: Found 10 models, 40 data tests, 1 seed, 4 sources, 541 macros
+[0m12:14:10.490972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0ac10cda-7433-41bd-93ac-9b9fd083ab7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdabd35b150>]}
+[0m12:14:10.492490 [info ] [MainThread]: 
+[0m12:14:10.492764 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m12:14:10.492966 [info ] [MainThread]: 
+[0m12:14:10.493275 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m12:14:10.493965 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715'
+[0m12:14:10.494430 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:14:11.415719 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_data-transformation-486715, now list_data-transformation-486715_exam2_transformed)
+[0m12:14:11.416778 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:14:12.369405 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0ac10cda-7433-41bd-93ac-9b9fd083ab7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdabd4a1f10>]}
+[0m12:14:12.370376 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:14:12.406653 [debug] [Thread-1 (]: Began running node seed.my_new_project.countriesEU
+[0m12:14:12.407305 [info ] [Thread-1 (]: 1 of 1 START seed file exam2_transformed.countriesEU ........................... [RUN]
+[0m12:14:12.407998 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_data-transformation-486715_exam2_transformed, now seed.my_new_project.countriesEU)
+[0m12:14:12.408433 [debug] [Thread-1 (]: Began compiling node seed.my_new_project.countriesEU
+[0m12:14:12.408852 [debug] [Thread-1 (]: Began executing node seed.my_new_project.countriesEU
+[0m12:14:12.444287 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:14:17.374149 [debug] [Thread-1 (]: On seed.my_new_project.countriesEU: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "seed.my_new_project.countriesEU"} */
+
+    alter table `data-transformation-486715`.`exam2_transformed`.`countriesEU` set OPTIONS()
+  
+[0m12:14:17.940511 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:2dd9ced5-0fee-44c1-a423-1b4b27dc4b38&page=queryresults
+[0m12:14:18.423097 [debug] [Thread-1 (]: SQL status: OK in 0.481 seconds
+[0m12:14:18.430590 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.my_new_project.countriesEU"
+[0m12:14:18.442120 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0ac10cda-7433-41bd-93ac-9b9fd083ab7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdabd6a7850>]}
+[0m12:14:18.442570 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file exam2_transformed.countriesEU ....................... [[32mINSERT 27[0m in 6.03s]
+[0m12:14:18.443064 [debug] [Thread-1 (]: Finished running node seed.my_new_project.countriesEU
+[0m12:14:18.444243 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m12:14:18.473667 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:14:18.473999 [debug] [MainThread]: Connection 'seed.my_new_project.countriesEU' was properly closed.
+[0m12:14:18.474244 [info ] [MainThread]: 
+[0m12:14:18.474466 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 7.98 seconds (7.98s).
+[0m12:14:18.474881 [debug] [MainThread]: Command end result
+[0m12:14:18.567288 [debug] [MainThread]: Wrote artifact WritableManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/manifest.json
+[0m12:14:18.568475 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/semantic_manifest.json
+[0m12:14:18.572016 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/run_results.json
+[0m12:14:18.572305 [info ] [MainThread]: 
+[0m12:14:18.572596 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:14:18.572802 [info ] [MainThread]: 
+[0m12:14:18.573048 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m12:14:18.573397 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- MissingArgumentsPropertyInGenericTestDeprecation: 9 occurrences
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m12:14:18.573793 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": true, "command_wall_clock_time": 10.20139, "process_in_blocks": "1104", "process_kernel_time": 0.18898, "process_mem_max_rss": "252348", "process_out_blocks": "4184", "process_user_time": 4.381314}
+[0m12:14:18.574082 [debug] [MainThread]: Command `dbt seed` succeeded at 12:14:18.574026 after 10.20 seconds
+[0m12:14:18.574319 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdaf0fb7ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdaf0fb7910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdaf52f5850>]}
+[0m12:14:18.574562 [debug] [MainThread]: Flushing usage events
+[0m12:14:18.879965 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:14:20.035107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77d1742990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77d1743810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77d17426d0>]}
+
+
+============================== 12:14:20.038536 | 7a166bac-0036-4949-8f06-ad7ec06d3110 ==============================
+[0m12:14:20.038536 [info ] [MainThread]: Running with dbt=1.11.7
+[0m12:14:20.038932 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'cache_selected_only': 'False', 'use_colors': 'True', 'static_parser': 'True', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'write_json': 'True', 'introspect': 'True', 'target_path': 'None', 'empty': 'False', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'profiles_dir': '/home/yisusparker/.dbt', 'printer_width': '80', 'version_check': 'True', 'log_cache_events': 'False', 'debug': 'False', 'invocation_command': 'dbt run', 'partial_parse': 'True', 'log_format': 'default', 'log_path': '/home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/logs'}
+[0m12:14:20.848232 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77d1e3b050>]}
+[0m12:14:20.887166 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77d455ae90>]}
+[0m12:14:20.887669 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m12:14:20.959828 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m12:14:21.045923 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:14:21.046248 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m12:14:21.046459 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:14:21.086715 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f779fc1fa90>]}
+[0m12:14:21.219876 [debug] [MainThread]: Wrote artifact WritableManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/manifest.json
+[0m12:14:21.221229 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/semantic_manifest.json
+[0m12:14:21.235035 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77a40a4ad0>]}
+[0m12:14:21.235652 [info ] [MainThread]: Found 10 models, 40 data tests, 1 seed, 4 sources, 541 macros
+[0m12:14:21.236056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f779f9bbad0>]}
+[0m12:14:21.238857 [info ] [MainThread]: 
+[0m12:14:21.239394 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m12:14:21.239767 [info ] [MainThread]: 
+[0m12:14:21.240335 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m12:14:21.245151 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715'
+[0m12:14:21.245748 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:14:22.213437 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_data-transformation-486715, now list_data-transformation-486715_exam2_transformed)
+[0m12:14:22.214092 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:14:44.381790 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77d42cca90>]}
+[0m12:14:44.382874 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:14:44.417971 [debug] [Thread-1 (]: Began running node model.my_new_project.stg_customers
+[0m12:14:44.418399 [debug] [Thread-2 (]: Began running node model.my_new_project.stg_employees
+[0m12:14:44.418853 [info ] [Thread-1 (]: 1 of 10 START sql table model exam2_transformed.stg_customers .................. [RUN]
+[0m12:14:44.419305 [info ] [Thread-2 (]: 2 of 10 START sql table model exam2_transformed.stg_employees .................. [RUN]
+[0m12:14:44.419778 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_data-transformation-486715_exam2_transformed, now model.my_new_project.stg_customers)
+[0m12:14:44.420210 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.my_new_project.stg_employees'
+[0m12:14:44.420610 [debug] [Thread-1 (]: Began compiling node model.my_new_project.stg_customers
+[0m12:14:44.420916 [debug] [Thread-2 (]: Began compiling node model.my_new_project.stg_employees
+[0m12:14:44.426962 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.stg_customers"
+[0m12:14:44.430106 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.stg_employees"
+[0m12:14:44.430953 [debug] [Thread-1 (]: Began executing node model.my_new_project.stg_customers
+[0m12:14:44.439487 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:14:44.467806 [debug] [Thread-2 (]: Began executing node model.my_new_project.stg_employees
+[0m12:14:44.469900 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m12:14:45.328415 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.stg_customers"
+[0m12:14:45.328983 [debug] [Thread-1 (]: On model.my_new_project.stg_customers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_customers"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2_transformed`.`stg_customers`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_cliente,
+    name as nombre,
+    contact as contacto,
+    address as direccion,
+    city as ciudad,
+    postal_code as codigo_postal,
+    country as pais
+
+FROM  `data-transformation-486715`.`exam2`.`customers`
+    );
+  
+[0m12:14:45.350231 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.stg_employees"
+[0m12:14:45.350795 [debug] [Thread-2 (]: On model.my_new_project.stg_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_employees"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2_transformed`.`stg_employees`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    employee_id as id_empleado,
+    last_name as apellido,
+    first_name as nombre,
+    birthdate as fecha_nacimiento,
+    photo as foto,
+    notes as notas
+FROM  `data-transformation-486715`.`exam2`.`employees`
+    );
+  
+[0m12:14:45.834732 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:39b5d856-2513-4db8-9448-e70c2e97f908&page=queryresults
+[0m12:14:45.879118 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:35bca336-ecfe-4e73-b508-9040e5a47aa4&page=queryresults
+[0m12:14:47.919395 [debug] [Thread-2 (]: SQL status: OK in 2.040 seconds
+[0m12:14:48.182929 [debug] [Thread-1 (]: SQL status: OK in 2.347 seconds
+[0m12:14:48.309296 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77d35480d0>]}
+[0m12:14:48.309814 [info ] [Thread-2 (]: 2 of 10 OK created sql table model exam2_transformed.stg_employees ............. [[32mCREATE TABLE (10.0 rows, 2.7 KiB processed)[0m in 3.89s]
+[0m12:14:48.310207 [debug] [Thread-2 (]: Finished running node model.my_new_project.stg_employees
+[0m12:14:48.310480 [debug] [Thread-2 (]: Began running node model.my_new_project.stg_orders
+[0m12:14:48.310776 [info ] [Thread-2 (]: 3 of 10 START sql table model exam2_transformed.stg_orders ..................... [RUN]
+[0m12:14:48.311135 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_employees, now model.my_new_project.stg_orders)
+[0m12:14:48.311378 [debug] [Thread-2 (]: Began compiling node model.my_new_project.stg_orders
+[0m12:14:48.313376 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.stg_orders"
+[0m12:14:48.313791 [debug] [Thread-2 (]: Began executing node model.my_new_project.stg_orders
+[0m12:14:48.315174 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:14:48.469482 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f779fa0f7d0>]}
+[0m12:14:48.470890 [info ] [Thread-1 (]: 1 of 10 OK created sql table model exam2_transformed.stg_customers ............. [[32mCREATE TABLE (91.0 rows, 8.1 KiB processed)[0m in 4.05s]
+[0m12:14:48.471876 [debug] [Thread-1 (]: Finished running node model.my_new_project.stg_customers
+[0m12:14:48.472462 [debug] [Thread-1 (]: Began running node model.my_new_project.stg_shippers
+[0m12:14:48.473066 [info ] [Thread-1 (]: 4 of 10 START sql table model exam2_transformed.stg_shippers ................... [RUN]
+[0m12:14:48.473581 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_customers, now model.my_new_project.stg_shippers)
+[0m12:14:48.474009 [debug] [Thread-1 (]: Began compiling node model.my_new_project.stg_shippers
+[0m12:14:48.476538 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.stg_shippers"
+[0m12:14:48.476929 [debug] [Thread-1 (]: Began executing node model.my_new_project.stg_shippers
+[0m12:14:48.478511 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:14:49.219690 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.stg_orders"
+[0m12:14:49.221272 [debug] [Thread-2 (]: On model.my_new_project.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_orders"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2_transformed`.`stg_orders`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_pedido,
+    customer_id as fk_cliente,
+    employee_id as fk_empleado,
+    date as fecha_pedido,
+    shipper_id as fk_transporte
+FROM  `data-transformation-486715`.`exam2`.`orders`
+    );
+  
+[0m12:14:49.319437 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.stg_shippers"
+[0m12:14:49.321070 [debug] [Thread-1 (]: On model.my_new_project.stg_shippers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.stg_shippers"} */
+
+  
+    
+
+    create or replace table `data-transformation-486715`.`exam2_transformed`.`stg_shippers`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+
+SELECT
+    id as id_transporte,
+    name as nombre_transporte,
+    phone as telefono_transporte
+FROM  `data-transformation-486715`.`exam2`.`shippers`
+    );
+  
+[0m12:14:49.696252 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:92f820ae-72b4-4677-aebc-3f1971c29427&page=queryresults
+[0m12:14:49.850628 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:6b7e9549-8cbb-4517-9b72-afa493a0cd5a&page=queryresults
+[0m12:14:51.722915 [debug] [Thread-2 (]: SQL status: OK in 2.025 seconds
+[0m12:14:51.987267 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77d1f0c3d0>]}
+[0m12:14:51.988102 [info ] [Thread-2 (]: 3 of 10 OK created sql table model exam2_transformed.stg_orders ................ [[32mCREATE TABLE (196.0 rows, 7.7 KiB processed)[0m in 3.68s]
+[0m12:14:51.988700 [debug] [Thread-2 (]: Finished running node model.my_new_project.stg_orders
+[0m12:14:51.989271 [debug] [Thread-2 (]: Began running node model.my_new_project.int_customers_in_eu
+[0m12:14:51.989702 [info ] [Thread-2 (]: 5 of 10 START sql view model exam2_transformed.int_customers_in_eu ............. [RUN]
+[0m12:14:51.990063 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_orders, now model.my_new_project.int_customers_in_eu)
+[0m12:14:51.990512 [debug] [Thread-2 (]: Began compiling node model.my_new_project.int_customers_in_eu
+[0m12:14:51.992879 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.int_customers_in_eu"
+[0m12:14:51.993335 [debug] [Thread-2 (]: Began executing node model.my_new_project.int_customers_in_eu
+[0m12:14:52.006509 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.int_customers_in_eu"
+[0m12:14:52.007040 [debug] [Thread-2 (]: On model.my_new_project.int_customers_in_eu: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.int_customers_in_eu"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2_transformed`.`int_customers_in_eu`
+  OPTIONS()
+  as WITH customers AS (
+    SELECT
+        id_cliente,
+        nombre,
+        contacto,
+        direccion,
+        ciudad,
+        codigo_postal,
+        pais
+
+    FROM `data-transformation-486715`.`exam2_transformed`.`stg_customers`
+),
+
+eu_list AS (
+    SELECT
+        Country_name AS nombre
+    FROM `data-transformation-486715`.`exam2_transformed`.`countriesEU`
+)
+
+SELECT
+    c.id_cliente,
+    c.nombre,
+    c.contacto,
+    c.direccion,
+    c.ciudad,
+    c.codigo_postal,
+    c.pais,
+    CASE WHEN e.nombre IS NOT NULL THEN 'EU' ELSE 'otro' END AS estado
+
+FROM customers c
+LEFT JOIN eu_list e
+    ON c.pais = e.nombre;
+
+
+[0m12:14:52.007384 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:14:52.274061 [debug] [Thread-1 (]: SQL status: OK in 2.422 seconds
+[0m12:14:52.555194 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f779cea9050>]}
+[0m12:14:52.555994 [info ] [Thread-1 (]: 4 of 10 OK created sql table model exam2_transformed.stg_shippers .............. [[32mCREATE TABLE (3.0 rows, 122.0 Bytes processed)[0m in 4.08s]
+[0m12:14:52.556635 [debug] [Thread-1 (]: Finished running node model.my_new_project.stg_shippers
+[0m12:14:52.557044 [debug] [Thread-1 (]: Began running node model.my_new_project.int_orders_employees
+[0m12:14:52.557465 [info ] [Thread-1 (]: 6 of 10 START sql view model exam2_transformed.int_orders_employees ............ [RUN]
+[0m12:14:52.557854 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_new_project.stg_shippers, now model.my_new_project.int_orders_employees)
+[0m12:14:52.558142 [debug] [Thread-1 (]: Began compiling node model.my_new_project.int_orders_employees
+[0m12:14:52.561037 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.int_orders_employees"
+[0m12:14:52.561563 [debug] [Thread-1 (]: Began executing node model.my_new_project.int_orders_employees
+[0m12:14:52.563310 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.int_orders_employees"
+[0m12:14:52.563822 [debug] [Thread-1 (]: On model.my_new_project.int_orders_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.int_orders_employees"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2_transformed`.`int_orders_employees`
+  OPTIONS()
+  as WITH orders AS (
+    SELECT
+        id_pedido,
+        fk_cliente,
+        fk_empleado,
+        fecha_pedido,
+        fk_transporte
+    FROM `data-transformation-486715`.`exam2_transformed`.`stg_orders`
+),
+employees AS (
+    SELECT
+        id_empleado,
+        
+    CONCAT(apellido, ' ', nombre)
+ AS nombre_completo,
+        fecha_nacimiento,
+        foto,
+        notas
+
+    FROM `data-transformation-486715`.`exam2_transformed`.`stg_employees`
+)
+
+SELECT
+    e.id_empleado,
+    o.id_pedido,
+    o.fk_cliente,
+    o.fecha_pedido,
+    e.nombre_completo,
+    e.fecha_nacimiento,
+    e.foto,
+    e.notas
+
+FROM orders o
+    JOIN employees e
+    ON o.fk_empleado = e.id_empleado;
+
+
+[0m12:14:52.564160 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:14:53.058588 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:c0c9ec5e-50ea-48e8-9f96-f6931df82b55&page=queryresults
+[0m12:14:53.506080 [debug] [Thread-2 (]: SQL status: OK in 0.446 seconds
+[0m12:14:53.510618 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77a4211050>]}
+[0m12:14:53.511070 [info ] [Thread-2 (]: 5 of 10 OK created sql view model exam2_transformed.int_customers_in_eu ........ [[32mCREATE VIEW (0 processed)[0m in 1.52s]
+[0m12:14:53.511433 [debug] [Thread-2 (]: Finished running node model.my_new_project.int_customers_in_eu
+[0m12:14:53.511716 [debug] [Thread-2 (]: Began running node model.my_new_project.int_orders_shippers
+[0m12:14:53.512002 [info ] [Thread-2 (]: 7 of 10 START sql view model exam2_transformed.int_orders_shippers ............. [RUN]
+[0m12:14:53.512283 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.int_customers_in_eu, now model.my_new_project.int_orders_shippers)
+[0m12:14:53.512532 [debug] [Thread-2 (]: Began compiling node model.my_new_project.int_orders_shippers
+[0m12:14:53.514415 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.int_orders_shippers"
+[0m12:14:53.514987 [debug] [Thread-2 (]: Began executing node model.my_new_project.int_orders_shippers
+[0m12:14:53.516676 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.int_orders_shippers"
+[0m12:14:53.517039 [debug] [Thread-2 (]: On model.my_new_project.int_orders_shippers: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.int_orders_shippers"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2_transformed`.`int_orders_shippers`
+  OPTIONS()
+  as WITH orders AS (
+    SELECT
+        id_pedido,
+        fk_cliente,
+        fecha_pedido,
+        fk_transporte,
+    FROM `data-transformation-486715`.`exam2_transformed`.`stg_orders`
+),
+shippers AS (
+    SELECT
+        id_transporte,
+        nombre_transporte,
+        telefono_transporte
+    FROM `data-transformation-486715`.`exam2_transformed`.`stg_shippers`
+)
+
+SELECT
+    s.id_transporte,
+    o.id_pedido,
+    o.fk_cliente,
+    o.fecha_pedido,
+    s.nombre_transporte,
+    s.telefono_transporte
+
+FROM orders o
+    JOIN shippers s
+    ON o.fk_transporte = s.id_transporte;
+
+
+[0m12:14:53.517322 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:14:53.649028 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:bf43061e-45c2-4502-ad95-589d0096d401&page=queryresults
+[0m12:14:54.126134 [debug] [Thread-1 (]: SQL status: OK in 0.476 seconds
+[0m12:14:54.130729 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77d1e9f750>]}
+[0m12:14:54.131183 [info ] [Thread-1 (]: 6 of 10 OK created sql view model exam2_transformed.int_orders_employees ....... [[32mCREATE VIEW (0 processed)[0m in 1.57s]
+[0m12:14:54.131540 [debug] [Thread-1 (]: Finished running node model.my_new_project.int_orders_employees
+[0m12:14:54.131795 [debug] [Thread-1 (]: Began running node model.my_new_project.eu_discount
+[0m12:14:54.132150 [info ] [Thread-1 (]: 8 of 10 START sql view model exam2_transformed.eu_discount ..................... [RUN]
+[0m12:14:54.132435 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_new_project.int_orders_employees, now model.my_new_project.eu_discount)
+[0m12:14:54.132686 [debug] [Thread-1 (]: Began compiling node model.my_new_project.eu_discount
+[0m12:14:54.135247 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.eu_discount"
+[0m12:14:54.135764 [debug] [Thread-1 (]: Began executing node model.my_new_project.eu_discount
+[0m12:14:54.137484 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.eu_discount"
+[0m12:14:54.137881 [debug] [Thread-1 (]: On model.my_new_project.eu_discount: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.eu_discount"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2_transformed`.`eu_discount`
+  OPTIONS()
+  as WITH customers AS (
+    SELECT
+        id_cliente,
+        nombre,
+        contacto,
+        direccion,
+        ciudad,
+        codigo_postal,
+        pais,
+        estado
+        
+    FROM `data-transformation-486715`.`exam2_transformed`.`int_customers_in_eu`
+)
+
+SELECT
+    c.id_cliente,
+    c.nombre,
+    c.contacto,
+    c.direccion,
+    c.ciudad,
+    c.codigo_postal,
+    c.pais,
+    
+    CASE WHEN estado = 'EU' THEN 0.95 ELSE 1 END
+ AS descuento
+    
+
+FROM customers c;
+
+
+[0m12:14:54.138174 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:14:54.697903 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:890e3b68-d207-4f89-892d-c3efda5c43be&page=queryresults
+[0m12:14:55.205888 [debug] [Thread-2 (]: SQL status: OK in 0.507 seconds
+[0m12:14:55.208522 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77d1ee3d10>]}
+[0m12:14:55.209028 [info ] [Thread-2 (]: 7 of 10 OK created sql view model exam2_transformed.int_orders_shippers ........ [[32mCREATE VIEW (0 processed)[0m in 1.70s]
+[0m12:14:55.209395 [debug] [Thread-2 (]: Finished running node model.my_new_project.int_orders_shippers
+[0m12:14:55.209667 [debug] [Thread-2 (]: Began running node model.my_new_project.recognized_employees
+[0m12:14:55.209944 [info ] [Thread-2 (]: 9 of 10 START sql view model exam2_transformed.recognized_employees ............ [RUN]
+[0m12:14:55.210301 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.my_new_project.int_orders_shippers, now model.my_new_project.recognized_employees)
+[0m12:14:55.210558 [debug] [Thread-2 (]: Began compiling node model.my_new_project.recognized_employees
+[0m12:14:55.213294 [debug] [Thread-2 (]: Writing injected SQL for node "model.my_new_project.recognized_employees"
+[0m12:14:55.213706 [debug] [Thread-2 (]: Began executing node model.my_new_project.recognized_employees
+[0m12:14:55.217175 [debug] [Thread-2 (]: Writing runtime sql for node "model.my_new_project.recognized_employees"
+[0m12:14:55.217711 [debug] [Thread-2 (]: On model.my_new_project.recognized_employees: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.recognized_employees"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2_transformed`.`recognized_employees`
+  OPTIONS()
+  as WITH employees AS (
+    SELECT
+        id_empleado,
+        nombre_completo,
+        fecha_nacimiento,
+        foto,
+        notas
+    FROM `data-transformation-486715`.`exam2_transformed`.`int_orders_employees`
+)
+
+SELECT
+    id_empleado,
+    nombre_completo,
+    foto,
+    COUNT(id_empleado) AS cantidad_ventas,
+    
+    CASE WHEN CAST(COUNT(id_empleado) AS NUMERIC) > 25 THEN 'recognized' ELSE 'normal' END
+ AS estado
+    
+
+
+FROM employees
+GROUP BY 1, 2, 3
+ORDER BY cantidad_ventas DESC;
+
+
+[0m12:14:55.218056 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:14:55.310027 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:7b8a39cc-1176-4108-93f7-168e229c608f&page=queryresults
+[0m12:14:56.012510 [debug] [Thread-1 (]: SQL status: OK in 0.702 seconds
+[0m12:14:56.016023 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f779ce204d0>]}
+[0m12:14:56.016558 [info ] [Thread-1 (]: 8 of 10 OK created sql view model exam2_transformed.eu_discount ................ [[32mCREATE VIEW (0 processed)[0m in 1.88s]
+[0m12:14:56.016961 [debug] [Thread-1 (]: Finished running node model.my_new_project.eu_discount
+[0m12:14:56.017258 [debug] [Thread-1 (]: Began running node model.my_new_project.shipper_ranking
+[0m12:14:56.017641 [info ] [Thread-1 (]: 10 of 10 START sql view model exam2_transformed.shipper_ranking ................ [RUN]
+[0m12:14:56.017936 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_new_project.eu_discount, now model.my_new_project.shipper_ranking)
+[0m12:14:56.018175 [debug] [Thread-1 (]: Began compiling node model.my_new_project.shipper_ranking
+[0m12:14:56.019924 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_new_project.shipper_ranking"
+[0m12:14:56.020354 [debug] [Thread-1 (]: Began executing node model.my_new_project.shipper_ranking
+[0m12:14:56.022001 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_new_project.shipper_ranking"
+[0m12:14:56.022422 [debug] [Thread-1 (]: On model.my_new_project.shipper_ranking: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "model.my_new_project.shipper_ranking"} */
+
+
+  create or replace view `data-transformation-486715`.`exam2_transformed`.`shipper_ranking`
+  OPTIONS()
+  as WITH shippers AS (
+    SELECT
+        id_transporte,
+        nombre_transporte,
+        telefono_transporte
+    
+    FROM `data-transformation-486715`.`exam2_transformed`.`int_orders_shippers`
+)
+
+SELECT 
+    id_transporte,
+    nombre_transporte,
+    telefono_transporte,
+    COUNT(id_transporte) AS cantidad_pedidos
+
+FROM shippers
+GROUP BY 1, 2, 3
+ORDER BY cantidad_pedidos DESC;
+
+
+[0m12:14:56.022765 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:14:56.424622 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:7bcab219-c0d9-4ed6-95f0-6cc1e30ee449&page=queryresults
+[0m12:14:56.931118 [debug] [Thread-2 (]: SQL status: OK in 0.506 seconds
+[0m12:14:56.936034 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f779fa34650>]}
+[0m12:14:56.936487 [info ] [Thread-2 (]: 9 of 10 OK created sql view model exam2_transformed.recognized_employees ....... [[32mCREATE VIEW (0 processed)[0m in 1.73s]
+[0m12:14:56.936857 [debug] [Thread-2 (]: Finished running node model.my_new_project.recognized_employees
+[0m12:14:59.856038 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:671c822b-085d-491c-8e65-a841922f5e65&page=queryresults
+[0m12:15:00.285431 [debug] [Thread-1 (]: SQL status: OK in 0.428 seconds
+[0m12:15:00.291944 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7a166bac-0036-4949-8f06-ad7ec06d3110', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f779cd6c690>]}
+[0m12:15:00.293145 [info ] [Thread-1 (]: 10 of 10 OK created sql view model exam2_transformed.shipper_ranking ........... [[32mCREATE VIEW (0 processed)[0m in 4.27s]
+[0m12:15:00.293919 [debug] [Thread-1 (]: Finished running node model.my_new_project.shipper_ranking
+[0m12:15:00.295945 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m12:15:00.330774 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:15:00.331104 [debug] [MainThread]: Connection 'model.my_new_project.shipper_ranking' was properly closed.
+[0m12:15:00.331322 [debug] [MainThread]: Connection 'model.my_new_project.recognized_employees' was properly closed.
+[0m12:15:00.331632 [info ] [MainThread]: 
+[0m12:15:00.331860 [info ] [MainThread]: Finished running 4 table models, 6 view models in 0 hours 0 minutes and 39.09 seconds (39.09s).
+[0m12:15:00.332837 [debug] [MainThread]: Command end result
+[0m12:15:00.351963 [debug] [MainThread]: Wrote artifact WritableManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/manifest.json
+[0m12:15:00.353202 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/semantic_manifest.json
+[0m12:15:00.357362 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/run_results.json
+[0m12:15:00.357683 [info ] [MainThread]: 
+[0m12:15:00.357953 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:15:00.358166 [info ] [MainThread]: 
+[0m12:15:00.358381 [info ] [MainThread]: Done. PASS=10 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=10
+[0m12:15:00.358789 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 40.358784, "process_in_blocks": "0", "process_kernel_time": 0.208218, "process_mem_max_rss": "243752", "process_out_blocks": "3264", "process_user_time": 4.075798}
+[0m12:15:00.359112 [debug] [MainThread]: Command `dbt run` succeeded at 12:15:00.359051 after 40.36 seconds
+[0m12:15:00.359370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77d5df9650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77d5df8a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77d5df95d0>]}
+[0m12:15:00.359638 [debug] [MainThread]: Flushing usage events
+[0m12:15:00.807911 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:15:01.905816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03c5bfa290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03c5a73b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03c5a73a90>]}
+
+
+============================== 12:15:01.908493 | 34042abf-e8d0-4587-9b1f-1186fd3f7f14 ==============================
+[0m12:15:01.908493 [info ] [MainThread]: Running with dbt=1.11.7
+[0m12:15:01.908861 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'empty': 'None', 'target_path': 'None', 'printer_width': '80', 'profiles_dir': '/home/yisusparker/.dbt', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'write_json': 'True', 'quiet': 'False', 'warn_error': 'None', 'log_cache_events': 'False', 'partial_parse': 'True', 'use_experimental_parser': 'False', 'use_colors': 'True', 'invocation_command': 'dbt test', 'no_print': 'None', 'log_path': '/home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/logs', 'version_check': 'True', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'send_anonymous_usage_stats': 'True'}
+[0m12:15:02.690089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '34042abf-e8d0-4587-9b1f-1186fd3f7f14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03c6381cd0>]}
+[0m12:15:02.727672 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '34042abf-e8d0-4587-9b1f-1186fd3f7f14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03c89e2d10>]}
+[0m12:15:02.728128 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m12:15:02.797668 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m12:15:02.877053 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:15:02.877372 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m12:15:02.877588 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:15:02.915103 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '34042abf-e8d0-4587-9b1f-1186fd3f7f14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f039830b9d0>]}
+[0m12:15:03.031714 [debug] [MainThread]: Wrote artifact WritableManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/manifest.json
+[0m12:15:03.032856 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/semantic_manifest.json
+[0m12:15:03.048540 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '34042abf-e8d0-4587-9b1f-1186fd3f7f14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03980e2a50>]}
+[0m12:15:03.048928 [info ] [MainThread]: Found 10 models, 40 data tests, 1 seed, 4 sources, 541 macros
+[0m12:15:03.049176 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '34042abf-e8d0-4587-9b1f-1186fd3f7f14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0393e49d50>]}
+[0m12:15:03.051358 [info ] [MainThread]: 
+[0m12:15:03.051621 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m12:15:03.051812 [info ] [MainThread]: 
+[0m12:15:03.052126 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m12:15:03.055151 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715_exam2_transformed'
+[0m12:15:03.055562 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:15:03.988686 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '34042abf-e8d0-4587-9b1f-1186fd3f7f14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0393ff3b90>]}
+[0m12:15:03.989691 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:15:04.021647 [debug] [Thread-1 (]: Began running node test.my_new_project.accepted_values_int_customers_in_eu_estado__EU__otro.964278c4f9
+[0m12:15:04.022054 [debug] [Thread-2 (]: Began running node test.my_new_project.accepted_values_recognized_employees_estado__recognized__normal.63b69ee1f3
+[0m12:15:04.022483 [info ] [Thread-1 (]: 1 of 40 START test accepted_values_int_customers_in_eu_estado__EU__otro ........ [RUN]
+[0m12:15:04.022887 [info ] [Thread-2 (]: 2 of 40 START test accepted_values_recognized_employees_estado__recognized__normal  [RUN]
+[0m12:15:04.023326 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_data-transformation-486715_exam2_transformed, now test.my_new_project.accepted_values_int_customers_in_eu_estado__EU__otro.964278c4f9)
+[0m12:15:04.023782 [debug] [Thread-2 (]: Acquiring new bigquery connection 'test.my_new_project.accepted_values_recognized_employees_estado__recognized__normal.63b69ee1f3'
+[0m12:15:04.024186 [debug] [Thread-1 (]: Began compiling node test.my_new_project.accepted_values_int_customers_in_eu_estado__EU__otro.964278c4f9
+[0m12:15:04.024495 [debug] [Thread-2 (]: Began compiling node test.my_new_project.accepted_values_recognized_employees_estado__recognized__normal.63b69ee1f3
+[0m12:15:04.036308 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.accepted_values_int_customers_in_eu_estado__EU__otro.964278c4f9"
+[0m12:15:04.040003 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.accepted_values_recognized_employees_estado__recognized__normal.63b69ee1f3"
+[0m12:15:04.040722 [debug] [Thread-2 (]: Began executing node test.my_new_project.accepted_values_recognized_employees_estado__recognized__normal.63b69ee1f3
+[0m12:15:04.041033 [debug] [Thread-1 (]: Began executing node test.my_new_project.accepted_values_int_customers_in_eu_estado__EU__otro.964278c4f9
+[0m12:15:04.055436 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.accepted_values_recognized_employees_estado__recognized__normal.63b69ee1f3"
+[0m12:15:04.057262 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.accepted_values_int_customers_in_eu_estado__EU__otro.964278c4f9"
+[0m12:15:04.057926 [debug] [Thread-1 (]: On test.my_new_project.accepted_values_int_customers_in_eu_estado__EU__otro.964278c4f9: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.accepted_values_int_customers_in_eu_estado__EU__otro.964278c4f9"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with all_values as (
+
+    select
+        estado as value_field,
+        count(*) as n_records
+
+    from `data-transformation-486715`.`exam2_transformed`.`int_customers_in_eu`
+    group by estado
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'EU','otro'
+)
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:04.058249 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:04.085840 [debug] [Thread-2 (]: On test.my_new_project.accepted_values_recognized_employees_estado__recognized__normal.63b69ee1f3: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.accepted_values_recognized_employees_estado__recognized__normal.63b69ee1f3"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with all_values as (
+
+    select
+        estado as value_field,
+        count(*) as n_records
+
+    from `data-transformation-486715`.`exam2_transformed`.`recognized_employees`
+    group by estado
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'recognized','normal'
+)
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:04.086265 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m12:15:05.191279 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:fb085770-a41b-4fb1-bb87-07d3ee2ff690&page=queryresults
+[0m12:15:05.269302 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:2a1a2c57-dc57-4933-b8c1-8dfdfc94ba1e&page=queryresults
+[0m12:15:05.465796 [debug] [Thread-2 (]: SQL status: OK in 0.273 seconds
+[0m12:15:05.533095 [debug] [Thread-1 (]: SQL status: OK in 0.262 seconds
+[0m12:15:06.045559 [info ] [Thread-1 (]: 1 of 40 PASS accepted_values_int_customers_in_eu_estado__EU__otro .............. [[32mPASS[0m in 2.02s]
+[0m12:15:06.046045 [debug] [Thread-1 (]: Finished running node test.my_new_project.accepted_values_int_customers_in_eu_estado__EU__otro.964278c4f9
+[0m12:15:06.046335 [debug] [Thread-1 (]: Began running node test.my_new_project.eu_discount_allowed_values
+[0m12:15:06.046581 [info ] [Thread-1 (]: 3 of 40 START test eu_discount_allowed_values .................................. [RUN]
+[0m12:15:06.046875 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.accepted_values_int_customers_in_eu_estado__EU__otro.964278c4f9, now test.my_new_project.eu_discount_allowed_values)
+[0m12:15:06.047145 [debug] [Thread-1 (]: Began compiling node test.my_new_project.eu_discount_allowed_values
+[0m12:15:06.049170 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.eu_discount_allowed_values"
+[0m12:15:06.049760 [debug] [Thread-1 (]: Began executing node test.my_new_project.eu_discount_allowed_values
+[0m12:15:06.051741 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.eu_discount_allowed_values"
+[0m12:15:06.052604 [debug] [Thread-1 (]: On test.my_new_project.eu_discount_allowed_values: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.eu_discount_allowed_values"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  -- Test fails if eu_discount has unexpected discount values.
+SELECT *
+FROM `data-transformation-486715`.`exam2_transformed`.`eu_discount`
+WHERE descuento NOT IN (0.95, 1)
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:06.052936 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:06.083774 [info ] [Thread-2 (]: 2 of 40 PASS accepted_values_recognized_employees_estado__recognized__normal ... [[32mPASS[0m in 2.06s]
+[0m12:15:06.085868 [debug] [Thread-2 (]: Finished running node test.my_new_project.accepted_values_recognized_employees_estado__recognized__normal.63b69ee1f3
+[0m12:15:06.086145 [debug] [Thread-2 (]: Began running node test.my_new_project.not_null_eu_discount_descuento.7a9d793c71
+[0m12:15:06.086379 [info ] [Thread-2 (]: 4 of 40 START test not_null_eu_discount_descuento .............................. [RUN]
+[0m12:15:06.086732 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.accepted_values_recognized_employees_estado__recognized__normal.63b69ee1f3, now test.my_new_project.not_null_eu_discount_descuento.7a9d793c71)
+[0m12:15:06.086971 [debug] [Thread-2 (]: Began compiling node test.my_new_project.not_null_eu_discount_descuento.7a9d793c71
+[0m12:15:06.091266 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.not_null_eu_discount_descuento.7a9d793c71"
+[0m12:15:06.091910 [debug] [Thread-2 (]: Began executing node test.my_new_project.not_null_eu_discount_descuento.7a9d793c71
+[0m12:15:06.093563 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.not_null_eu_discount_descuento.7a9d793c71"
+[0m12:15:06.094024 [debug] [Thread-2 (]: On test.my_new_project.not_null_eu_discount_descuento.7a9d793c71: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_eu_discount_descuento.7a9d793c71"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select descuento
+from `data-transformation-486715`.`exam2_transformed`.`eu_discount`
+where descuento is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:06.094340 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:07.525559 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:39c9ca1d-0f9c-44fe-8fd3-4de7e754169f&page=queryresults
+[0m12:15:07.574899 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:5df54e6b-4227-472b-9b9d-16de8d31063e&page=queryresults
+[0m12:15:07.771715 [debug] [Thread-1 (]: SQL status: OK in 0.245 seconds
+[0m12:15:07.863905 [debug] [Thread-2 (]: SQL status: OK in 0.288 seconds
+[0m12:15:08.332034 [info ] [Thread-1 (]: 3 of 40 PASS eu_discount_allowed_values ........................................ [[32mPASS[0m in 2.28s]
+[0m12:15:08.332603 [debug] [Thread-1 (]: Finished running node test.my_new_project.eu_discount_allowed_values
+[0m12:15:08.332898 [debug] [Thread-1 (]: Began running node test.my_new_project.not_null_eu_discount_id_cliente.ea14c58284
+[0m12:15:08.333153 [info ] [Thread-1 (]: 5 of 40 START test not_null_eu_discount_id_cliente ............................. [RUN]
+[0m12:15:08.333445 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.eu_discount_allowed_values, now test.my_new_project.not_null_eu_discount_id_cliente.ea14c58284)
+[0m12:15:08.333695 [debug] [Thread-1 (]: Began compiling node test.my_new_project.not_null_eu_discount_id_cliente.ea14c58284
+[0m12:15:08.336433 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.not_null_eu_discount_id_cliente.ea14c58284"
+[0m12:15:08.336949 [debug] [Thread-1 (]: Began executing node test.my_new_project.not_null_eu_discount_id_cliente.ea14c58284
+[0m12:15:08.338437 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.not_null_eu_discount_id_cliente.ea14c58284"
+[0m12:15:08.338821 [debug] [Thread-1 (]: On test.my_new_project.not_null_eu_discount_id_cliente.ea14c58284: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_eu_discount_id_cliente.ea14c58284"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select id_cliente
+from `data-transformation-486715`.`exam2_transformed`.`eu_discount`
+where id_cliente is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:08.339123 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:08.430053 [info ] [Thread-2 (]: 4 of 40 PASS not_null_eu_discount_descuento .................................... [[32mPASS[0m in 2.34s]
+[0m12:15:08.431233 [debug] [Thread-2 (]: Finished running node test.my_new_project.not_null_eu_discount_descuento.7a9d793c71
+[0m12:15:08.431877 [debug] [Thread-2 (]: Began running node test.my_new_project.not_null_int_customers_in_eu_estado.e56c8d47b8
+[0m12:15:08.432388 [info ] [Thread-2 (]: 6 of 40 START test not_null_int_customers_in_eu_estado ......................... [RUN]
+[0m12:15:08.432968 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_eu_discount_descuento.7a9d793c71, now test.my_new_project.not_null_int_customers_in_eu_estado.e56c8d47b8)
+[0m12:15:08.433397 [debug] [Thread-2 (]: Began compiling node test.my_new_project.not_null_int_customers_in_eu_estado.e56c8d47b8
+[0m12:15:08.436775 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.not_null_int_customers_in_eu_estado.e56c8d47b8"
+[0m12:15:08.437429 [debug] [Thread-2 (]: Began executing node test.my_new_project.not_null_int_customers_in_eu_estado.e56c8d47b8
+[0m12:15:08.440290 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.not_null_int_customers_in_eu_estado.e56c8d47b8"
+[0m12:15:08.441020 [debug] [Thread-2 (]: On test.my_new_project.not_null_int_customers_in_eu_estado.e56c8d47b8: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_int_customers_in_eu_estado.e56c8d47b8"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select estado
+from `data-transformation-486715`.`exam2_transformed`.`int_customers_in_eu`
+where estado is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:08.441525 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:09.573626 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:f7d84ea7-9358-4086-b293-17b2537fd8aa&page=queryresults
+[0m12:15:09.723532 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:5bf28e7a-b45c-4d48-95f9-fa94fe9b0c3c&page=queryresults
+[0m12:15:09.865153 [debug] [Thread-2 (]: SQL status: OK in 0.291 seconds
+[0m12:15:09.979190 [debug] [Thread-1 (]: SQL status: OK in 0.254 seconds
+[0m12:15:10.386878 [info ] [Thread-2 (]: 6 of 40 PASS not_null_int_customers_in_eu_estado ............................... [[32mPASS[0m in 1.95s]
+[0m12:15:10.387464 [debug] [Thread-2 (]: Finished running node test.my_new_project.not_null_int_customers_in_eu_estado.e56c8d47b8
+[0m12:15:10.387780 [debug] [Thread-2 (]: Began running node test.my_new_project.not_null_int_customers_in_eu_id_cliente.144201bf9c
+[0m12:15:10.388051 [info ] [Thread-2 (]: 7 of 40 START test not_null_int_customers_in_eu_id_cliente ..................... [RUN]
+[0m12:15:10.388397 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_int_customers_in_eu_estado.e56c8d47b8, now test.my_new_project.not_null_int_customers_in_eu_id_cliente.144201bf9c)
+[0m12:15:10.388680 [debug] [Thread-2 (]: Began compiling node test.my_new_project.not_null_int_customers_in_eu_id_cliente.144201bf9c
+[0m12:15:10.391376 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.not_null_int_customers_in_eu_id_cliente.144201bf9c"
+[0m12:15:10.391875 [debug] [Thread-2 (]: Began executing node test.my_new_project.not_null_int_customers_in_eu_id_cliente.144201bf9c
+[0m12:15:10.393370 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.not_null_int_customers_in_eu_id_cliente.144201bf9c"
+[0m12:15:10.393806 [debug] [Thread-2 (]: On test.my_new_project.not_null_int_customers_in_eu_id_cliente.144201bf9c: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_int_customers_in_eu_id_cliente.144201bf9c"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select id_cliente
+from `data-transformation-486715`.`exam2_transformed`.`int_customers_in_eu`
+where id_cliente is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:10.394123 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:10.439600 [info ] [Thread-1 (]: 5 of 40 PASS not_null_eu_discount_id_cliente ................................... [[32mPASS[0m in 2.11s]
+[0m12:15:10.440100 [debug] [Thread-1 (]: Finished running node test.my_new_project.not_null_eu_discount_id_cliente.ea14c58284
+[0m12:15:10.440380 [debug] [Thread-1 (]: Began running node test.my_new_project.not_null_int_orders_employees_fk_cliente.1e1c8f104d
+[0m12:15:10.440633 [info ] [Thread-1 (]: 8 of 40 START test not_null_int_orders_employees_fk_cliente .................... [RUN]
+[0m12:15:10.440915 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_eu_discount_id_cliente.ea14c58284, now test.my_new_project.not_null_int_orders_employees_fk_cliente.1e1c8f104d)
+[0m12:15:10.441264 [debug] [Thread-1 (]: Began compiling node test.my_new_project.not_null_int_orders_employees_fk_cliente.1e1c8f104d
+[0m12:15:10.444266 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.not_null_int_orders_employees_fk_cliente.1e1c8f104d"
+[0m12:15:10.444760 [debug] [Thread-1 (]: Began executing node test.my_new_project.not_null_int_orders_employees_fk_cliente.1e1c8f104d
+[0m12:15:10.446374 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.not_null_int_orders_employees_fk_cliente.1e1c8f104d"
+[0m12:15:10.446890 [debug] [Thread-1 (]: On test.my_new_project.not_null_int_orders_employees_fk_cliente.1e1c8f104d: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_int_orders_employees_fk_cliente.1e1c8f104d"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select fk_cliente
+from `data-transformation-486715`.`exam2_transformed`.`int_orders_employees`
+where fk_cliente is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:10.447220 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:11.613022 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:044df1ef-5a65-47a1-9063-d4ff53b508cc&page=queryresults
+[0m12:15:11.689155 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:84422f8e-93c2-4f54-8b6d-d598c97595ef&page=queryresults
+[0m12:15:11.876937 [debug] [Thread-2 (]: SQL status: OK in 0.263 seconds
+[0m12:15:11.930439 [debug] [Thread-1 (]: SQL status: OK in 0.240 seconds
+[0m12:15:12.402426 [info ] [Thread-2 (]: 7 of 40 PASS not_null_int_customers_in_eu_id_cliente ........................... [[32mPASS[0m in 2.01s]
+[0m12:15:12.402959 [debug] [Thread-2 (]: Finished running node test.my_new_project.not_null_int_customers_in_eu_id_cliente.144201bf9c
+[0m12:15:12.403245 [debug] [Thread-2 (]: Began running node test.my_new_project.not_null_int_orders_employees_id_empleado.8d1927c012
+[0m12:15:12.403483 [info ] [Thread-2 (]: 9 of 40 START test not_null_int_orders_employees_id_empleado ................... [RUN]
+[0m12:15:12.403755 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_int_customers_in_eu_id_cliente.144201bf9c, now test.my_new_project.not_null_int_orders_employees_id_empleado.8d1927c012)
+[0m12:15:12.403979 [debug] [Thread-2 (]: Began compiling node test.my_new_project.not_null_int_orders_employees_id_empleado.8d1927c012
+[0m12:15:12.407727 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.not_null_int_orders_employees_id_empleado.8d1927c012"
+[0m12:15:12.408245 [debug] [Thread-2 (]: Began executing node test.my_new_project.not_null_int_orders_employees_id_empleado.8d1927c012
+[0m12:15:12.410521 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.not_null_int_orders_employees_id_empleado.8d1927c012"
+[0m12:15:12.411204 [debug] [Thread-2 (]: On test.my_new_project.not_null_int_orders_employees_id_empleado.8d1927c012: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_int_orders_employees_id_empleado.8d1927c012"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select id_empleado
+from `data-transformation-486715`.`exam2_transformed`.`int_orders_employees`
+where id_empleado is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:12.411678 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:12.496211 [info ] [Thread-1 (]: 8 of 40 PASS not_null_int_orders_employees_fk_cliente .......................... [[32mPASS[0m in 2.05s]
+[0m12:15:12.497137 [debug] [Thread-1 (]: Finished running node test.my_new_project.not_null_int_orders_employees_fk_cliente.1e1c8f104d
+[0m12:15:12.497642 [debug] [Thread-1 (]: Began running node test.my_new_project.not_null_int_orders_employees_id_pedido.0a4388cca5
+[0m12:15:12.498189 [info ] [Thread-1 (]: 10 of 40 START test not_null_int_orders_employees_id_pedido .................... [RUN]
+[0m12:15:12.498649 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_int_orders_employees_fk_cliente.1e1c8f104d, now test.my_new_project.not_null_int_orders_employees_id_pedido.0a4388cca5)
+[0m12:15:12.499031 [debug] [Thread-1 (]: Began compiling node test.my_new_project.not_null_int_orders_employees_id_pedido.0a4388cca5
+[0m12:15:12.502079 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.not_null_int_orders_employees_id_pedido.0a4388cca5"
+[0m12:15:12.502489 [debug] [Thread-1 (]: Began executing node test.my_new_project.not_null_int_orders_employees_id_pedido.0a4388cca5
+[0m12:15:12.504108 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.not_null_int_orders_employees_id_pedido.0a4388cca5"
+[0m12:15:12.504602 [debug] [Thread-1 (]: On test.my_new_project.not_null_int_orders_employees_id_pedido.0a4388cca5: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_int_orders_employees_id_pedido.0a4388cca5"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select id_pedido
+from `data-transformation-486715`.`exam2_transformed`.`int_orders_employees`
+where id_pedido is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:12.505006 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:13.729337 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:e46560b2-5558-4f74-a5c4-df3b8c52a46b&page=queryresults
+[0m12:15:13.777904 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:5ac78bea-e494-4a99-a0fd-12b13c7d488f&page=queryresults
+[0m12:15:13.993997 [debug] [Thread-2 (]: SQL status: OK in 0.263 seconds
+[0m12:15:14.051413 [debug] [Thread-1 (]: SQL status: OK in 0.272 seconds
+[0m12:15:14.477982 [info ] [Thread-2 (]: 9 of 40 PASS not_null_int_orders_employees_id_empleado ......................... [[32mPASS[0m in 2.07s]
+[0m12:15:14.481967 [debug] [Thread-2 (]: Finished running node test.my_new_project.not_null_int_orders_employees_id_empleado.8d1927c012
+[0m12:15:14.482734 [debug] [Thread-2 (]: Began running node test.my_new_project.not_null_int_orders_shippers_fk_cliente.b5b143c4c4
+[0m12:15:14.483333 [info ] [Thread-2 (]: 11 of 40 START test not_null_int_orders_shippers_fk_cliente .................... [RUN]
+[0m12:15:14.484002 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_int_orders_employees_id_empleado.8d1927c012, now test.my_new_project.not_null_int_orders_shippers_fk_cliente.b5b143c4c4)
+[0m12:15:14.484531 [debug] [Thread-2 (]: Began compiling node test.my_new_project.not_null_int_orders_shippers_fk_cliente.b5b143c4c4
+[0m12:15:14.488701 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.not_null_int_orders_shippers_fk_cliente.b5b143c4c4"
+[0m12:15:14.489453 [debug] [Thread-2 (]: Began executing node test.my_new_project.not_null_int_orders_shippers_fk_cliente.b5b143c4c4
+[0m12:15:14.491183 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.not_null_int_orders_shippers_fk_cliente.b5b143c4c4"
+[0m12:15:14.491781 [debug] [Thread-2 (]: On test.my_new_project.not_null_int_orders_shippers_fk_cliente.b5b143c4c4: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_int_orders_shippers_fk_cliente.b5b143c4c4"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select fk_cliente
+from `data-transformation-486715`.`exam2_transformed`.`int_orders_shippers`
+where fk_cliente is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:14.492091 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:15.071041 [info ] [Thread-1 (]: 10 of 40 PASS not_null_int_orders_employees_id_pedido .......................... [[32mPASS[0m in 2.57s]
+[0m12:15:15.071579 [debug] [Thread-1 (]: Finished running node test.my_new_project.not_null_int_orders_employees_id_pedido.0a4388cca5
+[0m12:15:15.071868 [debug] [Thread-1 (]: Began running node test.my_new_project.not_null_int_orders_shippers_id_pedido.53d2fb8462
+[0m12:15:15.072154 [info ] [Thread-1 (]: 12 of 40 START test not_null_int_orders_shippers_id_pedido ..................... [RUN]
+[0m12:15:15.072473 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_int_orders_employees_id_pedido.0a4388cca5, now test.my_new_project.not_null_int_orders_shippers_id_pedido.53d2fb8462)
+[0m12:15:15.072722 [debug] [Thread-1 (]: Began compiling node test.my_new_project.not_null_int_orders_shippers_id_pedido.53d2fb8462
+[0m12:15:15.076602 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.not_null_int_orders_shippers_id_pedido.53d2fb8462"
+[0m12:15:15.077024 [debug] [Thread-1 (]: Began executing node test.my_new_project.not_null_int_orders_shippers_id_pedido.53d2fb8462
+[0m12:15:15.078520 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.not_null_int_orders_shippers_id_pedido.53d2fb8462"
+[0m12:15:15.078977 [debug] [Thread-1 (]: On test.my_new_project.not_null_int_orders_shippers_id_pedido.53d2fb8462: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_int_orders_shippers_id_pedido.53d2fb8462"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select id_pedido
+from `data-transformation-486715`.`exam2_transformed`.`int_orders_shippers`
+where id_pedido is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:15.079287 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:15.898543 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:6f7c49db-542e-4e89-9f49-7054d0a55950&page=queryresults
+[0m12:15:16.160559 [debug] [Thread-2 (]: SQL status: OK in 0.261 seconds
+[0m12:15:16.632624 [info ] [Thread-2 (]: 11 of 40 PASS not_null_int_orders_shippers_fk_cliente .......................... [[32mPASS[0m in 2.15s]
+[0m12:15:16.633811 [debug] [Thread-2 (]: Finished running node test.my_new_project.not_null_int_orders_shippers_fk_cliente.b5b143c4c4
+[0m12:15:16.634533 [debug] [Thread-2 (]: Began running node test.my_new_project.not_null_int_orders_shippers_id_transporte.77d6b3b7d9
+[0m12:15:16.635112 [info ] [Thread-2 (]: 13 of 40 START test not_null_int_orders_shippers_id_transporte ................. [RUN]
+[0m12:15:16.635951 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_int_orders_shippers_fk_cliente.b5b143c4c4, now test.my_new_project.not_null_int_orders_shippers_id_transporte.77d6b3b7d9)
+[0m12:15:16.636503 [debug] [Thread-2 (]: Began compiling node test.my_new_project.not_null_int_orders_shippers_id_transporte.77d6b3b7d9
+[0m12:15:16.640496 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.not_null_int_orders_shippers_id_transporte.77d6b3b7d9"
+[0m12:15:16.641265 [debug] [Thread-2 (]: Began executing node test.my_new_project.not_null_int_orders_shippers_id_transporte.77d6b3b7d9
+[0m12:15:16.643061 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.not_null_int_orders_shippers_id_transporte.77d6b3b7d9"
+[0m12:15:16.643596 [debug] [Thread-2 (]: On test.my_new_project.not_null_int_orders_shippers_id_transporte.77d6b3b7d9: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_int_orders_shippers_id_transporte.77d6b3b7d9"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select id_transporte
+from `data-transformation-486715`.`exam2_transformed`.`int_orders_shippers`
+where id_transporte is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:16.643965 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:16.777287 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:7aa6fb32-7c27-4d86-8262-44b55718d712&page=queryresults
+[0m12:15:17.030651 [debug] [Thread-1 (]: SQL status: OK in 0.252 seconds
+[0m12:15:17.568306 [info ] [Thread-1 (]: 12 of 40 PASS not_null_int_orders_shippers_id_pedido ........................... [[32mPASS[0m in 2.49s]
+[0m12:15:17.568814 [debug] [Thread-1 (]: Finished running node test.my_new_project.not_null_int_orders_shippers_id_pedido.53d2fb8462
+[0m12:15:17.569083 [debug] [Thread-1 (]: Began running node test.my_new_project.not_null_recognized_employees_cantidad_ventas.37f2481cc5
+[0m12:15:17.569373 [info ] [Thread-1 (]: 14 of 40 START test not_null_recognized_employees_cantidad_ventas .............. [RUN]
+[0m12:15:17.569670 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_int_orders_shippers_id_pedido.53d2fb8462, now test.my_new_project.not_null_recognized_employees_cantidad_ventas.37f2481cc5)
+[0m12:15:17.569901 [debug] [Thread-1 (]: Began compiling node test.my_new_project.not_null_recognized_employees_cantidad_ventas.37f2481cc5
+[0m12:15:17.572508 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.not_null_recognized_employees_cantidad_ventas.37f2481cc5"
+[0m12:15:17.572940 [debug] [Thread-1 (]: Began executing node test.my_new_project.not_null_recognized_employees_cantidad_ventas.37f2481cc5
+[0m12:15:17.574494 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.not_null_recognized_employees_cantidad_ventas.37f2481cc5"
+[0m12:15:17.574976 [debug] [Thread-1 (]: On test.my_new_project.not_null_recognized_employees_cantidad_ventas.37f2481cc5: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_recognized_employees_cantidad_ventas.37f2481cc5"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select cantidad_ventas
+from `data-transformation-486715`.`exam2_transformed`.`recognized_employees`
+where cantidad_ventas is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:17.575278 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:17.897559 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:9e777ec3-9e08-482b-ad06-d6a7df9ddae3&page=queryresults
+[0m12:15:18.155507 [debug] [Thread-2 (]: SQL status: OK in 0.257 seconds
+[0m12:15:18.771040 [info ] [Thread-2 (]: 13 of 40 PASS not_null_int_orders_shippers_id_transporte ....................... [[32mPASS[0m in 2.13s]
+[0m12:15:18.771565 [debug] [Thread-2 (]: Finished running node test.my_new_project.not_null_int_orders_shippers_id_transporte.77d6b3b7d9
+[0m12:15:18.771828 [debug] [Thread-2 (]: Began running node test.my_new_project.not_null_recognized_employees_estado.4cfa089488
+[0m12:15:18.772053 [info ] [Thread-2 (]: 15 of 40 START test not_null_recognized_employees_estado ....................... [RUN]
+[0m12:15:18.772314 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_int_orders_shippers_id_transporte.77d6b3b7d9, now test.my_new_project.not_null_recognized_employees_estado.4cfa089488)
+[0m12:15:18.772553 [debug] [Thread-2 (]: Began compiling node test.my_new_project.not_null_recognized_employees_estado.4cfa089488
+[0m12:15:18.775039 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.not_null_recognized_employees_estado.4cfa089488"
+[0m12:15:18.775427 [debug] [Thread-2 (]: Began executing node test.my_new_project.not_null_recognized_employees_estado.4cfa089488
+[0m12:15:18.776842 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.not_null_recognized_employees_estado.4cfa089488"
+[0m12:15:18.777197 [debug] [Thread-2 (]: On test.my_new_project.not_null_recognized_employees_estado.4cfa089488: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_recognized_employees_estado.4cfa089488"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select estado
+from `data-transformation-486715`.`exam2_transformed`.`recognized_employees`
+where estado is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:18.777460 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:18.986708 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:dd70e7ed-139c-4047-bd41-4a42abe94986&page=queryresults
+[0m12:15:19.220833 [debug] [Thread-1 (]: SQL status: OK in 0.233 seconds
+[0m12:15:19.727272 [info ] [Thread-1 (]: 14 of 40 PASS not_null_recognized_employees_cantidad_ventas .................... [[32mPASS[0m in 2.16s]
+[0m12:15:19.728625 [debug] [Thread-1 (]: Finished running node test.my_new_project.not_null_recognized_employees_cantidad_ventas.37f2481cc5
+[0m12:15:19.729492 [debug] [Thread-1 (]: Began running node test.my_new_project.not_null_recognized_employees_id_empleado.77701b5bb7
+[0m12:15:19.730152 [info ] [Thread-1 (]: 16 of 40 START test not_null_recognized_employees_id_empleado .................. [RUN]
+[0m12:15:19.730885 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_recognized_employees_cantidad_ventas.37f2481cc5, now test.my_new_project.not_null_recognized_employees_id_empleado.77701b5bb7)
+[0m12:15:19.731396 [debug] [Thread-1 (]: Began compiling node test.my_new_project.not_null_recognized_employees_id_empleado.77701b5bb7
+[0m12:15:19.735436 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.not_null_recognized_employees_id_empleado.77701b5bb7"
+[0m12:15:19.736108 [debug] [Thread-1 (]: Began executing node test.my_new_project.not_null_recognized_employees_id_empleado.77701b5bb7
+[0m12:15:19.739221 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.not_null_recognized_employees_id_empleado.77701b5bb7"
+[0m12:15:19.739715 [debug] [Thread-1 (]: On test.my_new_project.not_null_recognized_employees_id_empleado.77701b5bb7: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_recognized_employees_id_empleado.77701b5bb7"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select id_empleado
+from `data-transformation-486715`.`exam2_transformed`.`recognized_employees`
+where id_empleado is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:19.740031 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:20.096645 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:c87c0488-b930-4b48-af28-c9eb6df4d111&page=queryresults
+[0m12:15:20.391592 [debug] [Thread-2 (]: SQL status: OK in 0.294 seconds
+[0m12:15:20.896351 [info ] [Thread-2 (]: 15 of 40 PASS not_null_recognized_employees_estado ............................. [[32mPASS[0m in 2.12s]
+[0m12:15:20.896867 [debug] [Thread-2 (]: Finished running node test.my_new_project.not_null_recognized_employees_estado.4cfa089488
+[0m12:15:20.897133 [debug] [Thread-2 (]: Began running node test.my_new_project.not_null_shipper_ranking_cantidad_pedidos.d36877bc8e
+[0m12:15:20.897358 [info ] [Thread-2 (]: 17 of 40 START test not_null_shipper_ranking_cantidad_pedidos .................. [RUN]
+[0m12:15:20.897639 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_recognized_employees_estado.4cfa089488, now test.my_new_project.not_null_shipper_ranking_cantidad_pedidos.d36877bc8e)
+[0m12:15:20.897887 [debug] [Thread-2 (]: Began compiling node test.my_new_project.not_null_shipper_ranking_cantidad_pedidos.d36877bc8e
+[0m12:15:20.900653 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.not_null_shipper_ranking_cantidad_pedidos.d36877bc8e"
+[0m12:15:20.901122 [debug] [Thread-2 (]: Began executing node test.my_new_project.not_null_shipper_ranking_cantidad_pedidos.d36877bc8e
+[0m12:15:20.902654 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.not_null_shipper_ranking_cantidad_pedidos.d36877bc8e"
+[0m12:15:20.903127 [debug] [Thread-2 (]: On test.my_new_project.not_null_shipper_ranking_cantidad_pedidos.d36877bc8e: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_shipper_ranking_cantidad_pedidos.d36877bc8e"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select cantidad_pedidos
+from `data-transformation-486715`.`exam2_transformed`.`shipper_ranking`
+where cantidad_pedidos is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:20.903438 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:21.413921 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:f2c6a9cd-5097-49f9-93f3-1411bd1eaafb&page=queryresults
+[0m12:15:21.612042 [debug] [Thread-1 (]: SQL status: OK in 0.197 seconds
+[0m12:15:22.173667 [info ] [Thread-1 (]: 16 of 40 PASS not_null_recognized_employees_id_empleado ........................ [[32mPASS[0m in 2.44s]
+[0m12:15:22.174144 [debug] [Thread-1 (]: Finished running node test.my_new_project.not_null_recognized_employees_id_empleado.77701b5bb7
+[0m12:15:22.174419 [debug] [Thread-1 (]: Began running node test.my_new_project.not_null_shipper_ranking_id_transporte.def91d503c
+[0m12:15:22.174801 [info ] [Thread-1 (]: 18 of 40 START test not_null_shipper_ranking_id_transporte ..................... [RUN]
+[0m12:15:22.175132 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_recognized_employees_id_empleado.77701b5bb7, now test.my_new_project.not_null_shipper_ranking_id_transporte.def91d503c)
+[0m12:15:22.175486 [debug] [Thread-1 (]: Began compiling node test.my_new_project.not_null_shipper_ranking_id_transporte.def91d503c
+[0m12:15:22.178114 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.not_null_shipper_ranking_id_transporte.def91d503c"
+[0m12:15:22.178531 [debug] [Thread-1 (]: Began executing node test.my_new_project.not_null_shipper_ranking_id_transporte.def91d503c
+[0m12:15:22.180007 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.not_null_shipper_ranking_id_transporte.def91d503c"
+[0m12:15:22.180559 [debug] [Thread-1 (]: On test.my_new_project.not_null_shipper_ranking_id_transporte.def91d503c: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_shipper_ranking_id_transporte.def91d503c"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select id_transporte
+from `data-transformation-486715`.`exam2_transformed`.`shipper_ranking`
+where id_transporte is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:22.181014 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:22.333642 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:b75b90d2-111f-4bca-a378-41b8d0c9c14c&page=queryresults
+[0m12:15:22.556895 [debug] [Thread-2 (]: SQL status: OK in 0.222 seconds
+[0m12:15:23.121849 [info ] [Thread-2 (]: 17 of 40 PASS not_null_shipper_ranking_cantidad_pedidos ........................ [[32mPASS[0m in 2.22s]
+[0m12:15:23.123105 [debug] [Thread-2 (]: Finished running node test.my_new_project.not_null_shipper_ranking_cantidad_pedidos.d36877bc8e
+[0m12:15:23.123825 [debug] [Thread-2 (]: Began running node test.my_new_project.not_null_stg_customers_id_cliente.1f90ccb692
+[0m12:15:23.124434 [info ] [Thread-2 (]: 19 of 40 START test not_null_stg_customers_id_cliente .......................... [RUN]
+[0m12:15:23.125091 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_shipper_ranking_cantidad_pedidos.d36877bc8e, now test.my_new_project.not_null_stg_customers_id_cliente.1f90ccb692)
+[0m12:15:23.125611 [debug] [Thread-2 (]: Began compiling node test.my_new_project.not_null_stg_customers_id_cliente.1f90ccb692
+[0m12:15:23.129456 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.not_null_stg_customers_id_cliente.1f90ccb692"
+[0m12:15:23.130103 [debug] [Thread-2 (]: Began executing node test.my_new_project.not_null_stg_customers_id_cliente.1f90ccb692
+[0m12:15:23.131855 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.not_null_stg_customers_id_cliente.1f90ccb692"
+[0m12:15:23.132342 [debug] [Thread-2 (]: On test.my_new_project.not_null_stg_customers_id_cliente.1f90ccb692: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_stg_customers_id_cliente.1f90ccb692"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select id_cliente
+from `data-transformation-486715`.`exam2_transformed`.`stg_customers`
+where id_cliente is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:23.132679 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:23.789820 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:e3236c35-00c4-49c1-a277-4d0191d280b1&page=queryresults
+[0m12:15:24.011887 [debug] [Thread-1 (]: SQL status: OK in 0.221 seconds
+[0m12:15:24.316693 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:631cabcd-61ca-41f5-8cb0-fc58683dd33a&page=queryresults
+[0m12:15:24.495809 [info ] [Thread-1 (]: 18 of 40 PASS not_null_shipper_ranking_id_transporte ........................... [[32mPASS[0m in 2.32s]
+[0m12:15:24.496372 [debug] [Thread-1 (]: Finished running node test.my_new_project.not_null_shipper_ranking_id_transporte.def91d503c
+[0m12:15:24.496693 [debug] [Thread-1 (]: Began running node test.my_new_project.not_null_stg_employees_id_empleado.3b86173cdb
+[0m12:15:24.497005 [info ] [Thread-1 (]: 20 of 40 START test not_null_stg_employees_id_empleado ......................... [RUN]
+[0m12:15:24.497317 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_shipper_ranking_id_transporte.def91d503c, now test.my_new_project.not_null_stg_employees_id_empleado.3b86173cdb)
+[0m12:15:24.497582 [debug] [Thread-1 (]: Began compiling node test.my_new_project.not_null_stg_employees_id_empleado.3b86173cdb
+[0m12:15:24.500648 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.not_null_stg_employees_id_empleado.3b86173cdb"
+[0m12:15:24.501090 [debug] [Thread-1 (]: Began executing node test.my_new_project.not_null_stg_employees_id_empleado.3b86173cdb
+[0m12:15:24.503034 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.not_null_stg_employees_id_empleado.3b86173cdb"
+[0m12:15:24.503681 [debug] [Thread-1 (]: On test.my_new_project.not_null_stg_employees_id_empleado.3b86173cdb: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_stg_employees_id_empleado.3b86173cdb"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select id_empleado
+from `data-transformation-486715`.`exam2_transformed`.`stg_employees`
+where id_empleado is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:24.504042 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:24.595487 [debug] [Thread-2 (]: SQL status: OK in 0.278 seconds
+[0m12:15:25.047841 [info ] [Thread-2 (]: 19 of 40 PASS not_null_stg_customers_id_cliente ................................ [[32mPASS[0m in 1.92s]
+[0m12:15:25.048337 [debug] [Thread-2 (]: Finished running node test.my_new_project.not_null_stg_customers_id_cliente.1f90ccb692
+[0m12:15:25.048612 [debug] [Thread-2 (]: Began running node test.my_new_project.not_null_stg_orders_fk_cliente.5a24614361
+[0m12:15:25.048843 [info ] [Thread-2 (]: 21 of 40 START test not_null_stg_orders_fk_cliente ............................. [RUN]
+[0m12:15:25.049171 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_stg_customers_id_cliente.1f90ccb692, now test.my_new_project.not_null_stg_orders_fk_cliente.5a24614361)
+[0m12:15:25.049394 [debug] [Thread-2 (]: Began compiling node test.my_new_project.not_null_stg_orders_fk_cliente.5a24614361
+[0m12:15:25.053508 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.not_null_stg_orders_fk_cliente.5a24614361"
+[0m12:15:25.053911 [debug] [Thread-2 (]: Began executing node test.my_new_project.not_null_stg_orders_fk_cliente.5a24614361
+[0m12:15:25.055462 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.not_null_stg_orders_fk_cliente.5a24614361"
+[0m12:15:25.055930 [debug] [Thread-2 (]: On test.my_new_project.not_null_stg_orders_fk_cliente.5a24614361: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_stg_orders_fk_cliente.5a24614361"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select fk_cliente
+from `data-transformation-486715`.`exam2_transformed`.`stg_orders`
+where fk_cliente is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:25.056269 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:25.731857 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:97d5834b-1ea2-4360-bed3-229660af098a&page=queryresults
+[0m12:15:25.984352 [debug] [Thread-1 (]: SQL status: OK in 0.251 seconds
+[0m12:15:26.259285 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:8f292228-ea3b-4c07-8380-f5c4d5daaf3b&page=queryresults
+[0m12:15:26.466425 [debug] [Thread-2 (]: SQL status: OK in 0.206 seconds
+[0m12:15:26.566516 [info ] [Thread-1 (]: 20 of 40 PASS not_null_stg_employees_id_empleado ............................... [[32mPASS[0m in 2.07s]
+[0m12:15:26.567701 [debug] [Thread-1 (]: Finished running node test.my_new_project.not_null_stg_employees_id_empleado.3b86173cdb
+[0m12:15:26.568384 [debug] [Thread-1 (]: Began running node test.my_new_project.not_null_stg_orders_fk_empleado.a6b05949d0
+[0m12:15:26.568945 [info ] [Thread-1 (]: 22 of 40 START test not_null_stg_orders_fk_empleado ............................ [RUN]
+[0m12:15:26.569613 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_stg_employees_id_empleado.3b86173cdb, now test.my_new_project.not_null_stg_orders_fk_empleado.a6b05949d0)
+[0m12:15:26.570055 [debug] [Thread-1 (]: Began compiling node test.my_new_project.not_null_stg_orders_fk_empleado.a6b05949d0
+[0m12:15:26.574369 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.not_null_stg_orders_fk_empleado.a6b05949d0"
+[0m12:15:26.575199 [debug] [Thread-1 (]: Began executing node test.my_new_project.not_null_stg_orders_fk_empleado.a6b05949d0
+[0m12:15:26.577120 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.not_null_stg_orders_fk_empleado.a6b05949d0"
+[0m12:15:26.577638 [debug] [Thread-1 (]: On test.my_new_project.not_null_stg_orders_fk_empleado.a6b05949d0: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_stg_orders_fk_empleado.a6b05949d0"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select fk_empleado
+from `data-transformation-486715`.`exam2_transformed`.`stg_orders`
+where fk_empleado is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:26.577965 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:27.012578 [info ] [Thread-2 (]: 21 of 40 PASS not_null_stg_orders_fk_cliente ................................... [[32mPASS[0m in 1.96s]
+[0m12:15:27.013493 [debug] [Thread-2 (]: Finished running node test.my_new_project.not_null_stg_orders_fk_cliente.5a24614361
+[0m12:15:27.013970 [debug] [Thread-2 (]: Began running node test.my_new_project.not_null_stg_orders_fk_transporte.3d5fb276ed
+[0m12:15:27.014334 [info ] [Thread-2 (]: 23 of 40 START test not_null_stg_orders_fk_transporte .......................... [RUN]
+[0m12:15:27.014845 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_stg_orders_fk_cliente.5a24614361, now test.my_new_project.not_null_stg_orders_fk_transporte.3d5fb276ed)
+[0m12:15:27.015216 [debug] [Thread-2 (]: Began compiling node test.my_new_project.not_null_stg_orders_fk_transporte.3d5fb276ed
+[0m12:15:27.018153 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.not_null_stg_orders_fk_transporte.3d5fb276ed"
+[0m12:15:27.018587 [debug] [Thread-2 (]: Began executing node test.my_new_project.not_null_stg_orders_fk_transporte.3d5fb276ed
+[0m12:15:27.020321 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.not_null_stg_orders_fk_transporte.3d5fb276ed"
+[0m12:15:27.020812 [debug] [Thread-2 (]: On test.my_new_project.not_null_stg_orders_fk_transporte.3d5fb276ed: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_stg_orders_fk_transporte.3d5fb276ed"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select fk_transporte
+from `data-transformation-486715`.`exam2_transformed`.`stg_orders`
+where fk_transporte is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:27.021108 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:27.793307 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:b5ff3f52-cf53-4c0f-aa2c-5d1c30417bf6&page=queryresults
+[0m12:15:28.009151 [debug] [Thread-1 (]: SQL status: OK in 0.215 seconds
+[0m12:15:28.215910 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:c68fa0f0-a204-42f9-b66b-bd0d789b2aa6&page=queryresults
+[0m12:15:28.446735 [debug] [Thread-2 (]: SQL status: OK in 0.229 seconds
+[0m12:15:28.603631 [info ] [Thread-1 (]: 22 of 40 PASS not_null_stg_orders_fk_empleado .................................. [[32mPASS[0m in 2.03s]
+[0m12:15:28.604770 [debug] [Thread-1 (]: Finished running node test.my_new_project.not_null_stg_orders_fk_empleado.a6b05949d0
+[0m12:15:28.605453 [debug] [Thread-1 (]: Began running node test.my_new_project.not_null_stg_orders_id_pedido.bc9dff15cc
+[0m12:15:28.605764 [info ] [Thread-1 (]: 24 of 40 START test not_null_stg_orders_id_pedido .............................. [RUN]
+[0m12:15:28.606118 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_stg_orders_fk_empleado.a6b05949d0, now test.my_new_project.not_null_stg_orders_id_pedido.bc9dff15cc)
+[0m12:15:28.606389 [debug] [Thread-1 (]: Began compiling node test.my_new_project.not_null_stg_orders_id_pedido.bc9dff15cc
+[0m12:15:28.608912 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.not_null_stg_orders_id_pedido.bc9dff15cc"
+[0m12:15:28.609270 [debug] [Thread-1 (]: Began executing node test.my_new_project.not_null_stg_orders_id_pedido.bc9dff15cc
+[0m12:15:28.611285 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.not_null_stg_orders_id_pedido.bc9dff15cc"
+[0m12:15:28.611801 [debug] [Thread-1 (]: On test.my_new_project.not_null_stg_orders_id_pedido.bc9dff15cc: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_stg_orders_id_pedido.bc9dff15cc"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select id_pedido
+from `data-transformation-486715`.`exam2_transformed`.`stg_orders`
+where id_pedido is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:28.612101 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:28.970152 [info ] [Thread-2 (]: 23 of 40 PASS not_null_stg_orders_fk_transporte ................................ [[32mPASS[0m in 1.95s]
+[0m12:15:28.970705 [debug] [Thread-2 (]: Finished running node test.my_new_project.not_null_stg_orders_fk_transporte.3d5fb276ed
+[0m12:15:28.971027 [debug] [Thread-2 (]: Began running node test.my_new_project.not_null_stg_shippers_id_transporte.03e2ad80c5
+[0m12:15:28.971295 [info ] [Thread-2 (]: 25 of 40 START test not_null_stg_shippers_id_transporte ........................ [RUN]
+[0m12:15:28.971652 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_stg_orders_fk_transporte.3d5fb276ed, now test.my_new_project.not_null_stg_shippers_id_transporte.03e2ad80c5)
+[0m12:15:28.971907 [debug] [Thread-2 (]: Began compiling node test.my_new_project.not_null_stg_shippers_id_transporte.03e2ad80c5
+[0m12:15:28.974668 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.not_null_stg_shippers_id_transporte.03e2ad80c5"
+[0m12:15:28.975138 [debug] [Thread-2 (]: Began executing node test.my_new_project.not_null_stg_shippers_id_transporte.03e2ad80c5
+[0m12:15:28.978216 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.not_null_stg_shippers_id_transporte.03e2ad80c5"
+[0m12:15:28.978971 [debug] [Thread-2 (]: On test.my_new_project.not_null_stg_shippers_id_transporte.03e2ad80c5: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.not_null_stg_shippers_id_transporte.03e2ad80c5"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select id_transporte
+from `data-transformation-486715`.`exam2_transformed`.`stg_shippers`
+where id_transporte is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:28.979310 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:29.709575 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:4e60fa12-e577-4baf-9ff7-14d4cdc8cb9a&page=queryresults
+[0m12:15:29.930278 [debug] [Thread-1 (]: SQL status: OK in 0.220 seconds
+[0m12:15:30.258027 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:1dcf6ff1-140a-47c7-86a1-04e74bdd22e1&page=queryresults
+[0m12:15:30.462360 [debug] [Thread-2 (]: SQL status: OK in 0.203 seconds
+[0m12:15:30.470055 [info ] [Thread-1 (]: 24 of 40 PASS not_null_stg_orders_id_pedido .................................... [[32mPASS[0m in 1.86s]
+[0m12:15:30.470974 [debug] [Thread-1 (]: Finished running node test.my_new_project.not_null_stg_orders_id_pedido.bc9dff15cc
+[0m12:15:30.471583 [debug] [Thread-1 (]: Began running node test.my_new_project.relationships_int_orders_employees_fk_cliente__id_cliente__ref_stg_customers_.eca6c0b84e
+[0m12:15:30.472138 [info ] [Thread-1 (]: 26 of 40 START test relationships_int_orders_employees_fk_cliente__id_cliente__ref_stg_customers_  [RUN]
+[0m12:15:30.472525 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_stg_orders_id_pedido.bc9dff15cc, now test.my_new_project.relationships_int_orders_employees_fk_cliente__id_cliente__ref_stg_customers_.eca6c0b84e)
+[0m12:15:30.472917 [debug] [Thread-1 (]: Began compiling node test.my_new_project.relationships_int_orders_employees_fk_cliente__id_cliente__ref_stg_customers_.eca6c0b84e
+[0m12:15:30.482339 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.relationships_int_orders_employees_fk_cliente__id_cliente__ref_stg_customers_.eca6c0b84e"
+[0m12:15:30.482857 [debug] [Thread-1 (]: Began executing node test.my_new_project.relationships_int_orders_employees_fk_cliente__id_cliente__ref_stg_customers_.eca6c0b84e
+[0m12:15:30.484634 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.relationships_int_orders_employees_fk_cliente__id_cliente__ref_stg_customers_.eca6c0b84e"
+[0m12:15:30.485163 [debug] [Thread-1 (]: On test.my_new_project.relationships_int_orders_employees_fk_cliente__id_cliente__ref_stg_customers_.eca6c0b84e: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.relationships_int_orders_employees_fk_cliente__id_cliente__ref_stg_customers_.eca6c0b84e"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select fk_cliente as from_field
+    from `data-transformation-486715`.`exam2_transformed`.`int_orders_employees`
+    where fk_cliente is not null
+),
+
+parent as (
+    select id_cliente as to_field
+    from `data-transformation-486715`.`exam2_transformed`.`stg_customers`
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:30.485514 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:31.039189 [info ] [Thread-2 (]: 25 of 40 PASS not_null_stg_shippers_id_transporte .............................. [[32mPASS[0m in 2.07s]
+[0m12:15:31.040354 [debug] [Thread-2 (]: Finished running node test.my_new_project.not_null_stg_shippers_id_transporte.03e2ad80c5
+[0m12:15:31.041108 [debug] [Thread-2 (]: Began running node test.my_new_project.relationships_int_orders_employees_id_empleado__id_empleado__ref_stg_employees_.3325a46465
+[0m12:15:31.041902 [info ] [Thread-2 (]: 27 of 40 START test relationships_int_orders_employees_id_empleado__id_empleado__ref_stg_employees_  [RUN]
+[0m12:15:31.042737 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.not_null_stg_shippers_id_transporte.03e2ad80c5, now test.my_new_project.relationships_int_orders_employees_id_empleado__id_empleado__ref_stg_employees_.3325a46465)
+[0m12:15:31.043357 [debug] [Thread-2 (]: Began compiling node test.my_new_project.relationships_int_orders_employees_id_empleado__id_empleado__ref_stg_employees_.3325a46465
+[0m12:15:31.048559 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.relationships_int_orders_employees_id_empleado__id_empleado__ref_stg_employees_.3325a46465"
+[0m12:15:31.049260 [debug] [Thread-2 (]: Began executing node test.my_new_project.relationships_int_orders_employees_id_empleado__id_empleado__ref_stg_employees_.3325a46465
+[0m12:15:31.050813 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.relationships_int_orders_employees_id_empleado__id_empleado__ref_stg_employees_.3325a46465"
+[0m12:15:31.051227 [debug] [Thread-2 (]: On test.my_new_project.relationships_int_orders_employees_id_empleado__id_empleado__ref_stg_employees_.3325a46465: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.relationships_int_orders_employees_id_empleado__id_empleado__ref_stg_employees_.3325a46465"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select id_empleado as from_field
+    from `data-transformation-486715`.`exam2_transformed`.`int_orders_employees`
+    where id_empleado is not null
+),
+
+parent as (
+    select id_empleado as to_field
+    from `data-transformation-486715`.`exam2_transformed`.`stg_employees`
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:31.051533 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:31.811914 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:292e078f-63d8-4ef1-8baa-f7b5822bb95e&page=queryresults
+[0m12:15:32.040529 [debug] [Thread-1 (]: SQL status: OK in 0.227 seconds
+[0m12:15:32.425707 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:d43d28f3-db8c-4688-8f5f-6f5d682ba209&page=queryresults
+[0m12:15:32.509410 [info ] [Thread-1 (]: 26 of 40 PASS relationships_int_orders_employees_fk_cliente__id_cliente__ref_stg_customers_  [[32mPASS[0m in 2.04s]
+[0m12:15:32.510325 [debug] [Thread-1 (]: Finished running node test.my_new_project.relationships_int_orders_employees_fk_cliente__id_cliente__ref_stg_customers_.eca6c0b84e
+[0m12:15:32.510906 [debug] [Thread-1 (]: Began running node test.my_new_project.relationships_int_orders_shippers_fk_cliente__id_cliente__ref_stg_customers_.e61a291b05
+[0m12:15:32.511357 [info ] [Thread-1 (]: 28 of 40 START test relationships_int_orders_shippers_fk_cliente__id_cliente__ref_stg_customers_  [RUN]
+[0m12:15:32.511837 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.relationships_int_orders_employees_fk_cliente__id_cliente__ref_stg_customers_.eca6c0b84e, now test.my_new_project.relationships_int_orders_shippers_fk_cliente__id_cliente__ref_stg_customers_.e61a291b05)
+[0m12:15:32.512318 [debug] [Thread-1 (]: Began compiling node test.my_new_project.relationships_int_orders_shippers_fk_cliente__id_cliente__ref_stg_customers_.e61a291b05
+[0m12:15:32.516395 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.relationships_int_orders_shippers_fk_cliente__id_cliente__ref_stg_customers_.e61a291b05"
+[0m12:15:32.517056 [debug] [Thread-1 (]: Began executing node test.my_new_project.relationships_int_orders_shippers_fk_cliente__id_cliente__ref_stg_customers_.e61a291b05
+[0m12:15:32.519573 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.relationships_int_orders_shippers_fk_cliente__id_cliente__ref_stg_customers_.e61a291b05"
+[0m12:15:32.520250 [debug] [Thread-1 (]: On test.my_new_project.relationships_int_orders_shippers_fk_cliente__id_cliente__ref_stg_customers_.e61a291b05: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.relationships_int_orders_shippers_fk_cliente__id_cliente__ref_stg_customers_.e61a291b05"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select fk_cliente as from_field
+    from `data-transformation-486715`.`exam2_transformed`.`int_orders_shippers`
+    where fk_cliente is not null
+),
+
+parent as (
+    select id_cliente as to_field
+    from `data-transformation-486715`.`exam2_transformed`.`stg_customers`
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:32.520852 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:32.655592 [debug] [Thread-2 (]: SQL status: OK in 0.229 seconds
+[0m12:15:33.294274 [info ] [Thread-2 (]: 27 of 40 PASS relationships_int_orders_employees_id_empleado__id_empleado__ref_stg_employees_  [[32mPASS[0m in 2.25s]
+[0m12:15:33.295706 [debug] [Thread-2 (]: Finished running node test.my_new_project.relationships_int_orders_employees_id_empleado__id_empleado__ref_stg_employees_.3325a46465
+[0m12:15:33.296516 [debug] [Thread-2 (]: Began running node test.my_new_project.relationships_int_orders_shippers_id_transporte__id_transporte__ref_stg_shippers_.c4768e2f2f
+[0m12:15:33.297097 [info ] [Thread-2 (]: 29 of 40 START test relationships_int_orders_shippers_id_transporte__id_transporte__ref_stg_shippers_  [RUN]
+[0m12:15:33.297737 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.relationships_int_orders_employees_id_empleado__id_empleado__ref_stg_employees_.3325a46465, now test.my_new_project.relationships_int_orders_shippers_id_transporte__id_transporte__ref_stg_shippers_.c4768e2f2f)
+[0m12:15:33.298238 [debug] [Thread-2 (]: Began compiling node test.my_new_project.relationships_int_orders_shippers_id_transporte__id_transporte__ref_stg_shippers_.c4768e2f2f
+[0m12:15:33.303197 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.relationships_int_orders_shippers_id_transporte__id_transporte__ref_stg_shippers_.c4768e2f2f"
+[0m12:15:33.303811 [debug] [Thread-2 (]: Began executing node test.my_new_project.relationships_int_orders_shippers_id_transporte__id_transporte__ref_stg_shippers_.c4768e2f2f
+[0m12:15:33.305484 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.relationships_int_orders_shippers_id_transporte__id_transporte__ref_stg_shippers_.c4768e2f2f"
+[0m12:15:33.306022 [debug] [Thread-2 (]: On test.my_new_project.relationships_int_orders_shippers_id_transporte__id_transporte__ref_stg_shippers_.c4768e2f2f: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.relationships_int_orders_shippers_id_transporte__id_transporte__ref_stg_shippers_.c4768e2f2f"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select id_transporte as from_field
+    from `data-transformation-486715`.`exam2_transformed`.`int_orders_shippers`
+    where id_transporte is not null
+),
+
+parent as (
+    select id_transporte as to_field
+    from `data-transformation-486715`.`exam2_transformed`.`stg_shippers`
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:33.306428 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:33.760863 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:78c47116-aee8-440c-9d40-78a68b17cda5&page=queryresults
+[0m12:15:33.990982 [debug] [Thread-1 (]: SQL status: OK in 0.229 seconds
+[0m12:15:34.493111 [info ] [Thread-1 (]: 28 of 40 PASS relationships_int_orders_shippers_fk_cliente__id_cliente__ref_stg_customers_  [[32mPASS[0m in 1.98s]
+[0m12:15:34.494059 [debug] [Thread-1 (]: Finished running node test.my_new_project.relationships_int_orders_shippers_fk_cliente__id_cliente__ref_stg_customers_.e61a291b05
+[0m12:15:34.494567 [debug] [Thread-1 (]: Began running node test.my_new_project.relationships_stg_orders_fk_cliente__id_cliente__ref_stg_customers_.14fbf03174
+[0m12:15:34.494960 [info ] [Thread-1 (]: 30 of 40 START test relationships_stg_orders_fk_cliente__id_cliente__ref_stg_customers_  [RUN]
+[0m12:15:34.495411 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.relationships_int_orders_shippers_fk_cliente__id_cliente__ref_stg_customers_.e61a291b05, now test.my_new_project.relationships_stg_orders_fk_cliente__id_cliente__ref_stg_customers_.14fbf03174)
+[0m12:15:34.495777 [debug] [Thread-1 (]: Began compiling node test.my_new_project.relationships_stg_orders_fk_cliente__id_cliente__ref_stg_customers_.14fbf03174
+[0m12:15:34.499302 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.relationships_stg_orders_fk_cliente__id_cliente__ref_stg_customers_.14fbf03174"
+[0m12:15:34.499805 [debug] [Thread-1 (]: Began executing node test.my_new_project.relationships_stg_orders_fk_cliente__id_cliente__ref_stg_customers_.14fbf03174
+[0m12:15:34.502156 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.relationships_stg_orders_fk_cliente__id_cliente__ref_stg_customers_.14fbf03174"
+[0m12:15:34.502816 [debug] [Thread-1 (]: On test.my_new_project.relationships_stg_orders_fk_cliente__id_cliente__ref_stg_customers_.14fbf03174: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.relationships_stg_orders_fk_cliente__id_cliente__ref_stg_customers_.14fbf03174"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select fk_cliente as from_field
+    from `data-transformation-486715`.`exam2_transformed`.`stg_orders`
+    where fk_cliente is not null
+),
+
+parent as (
+    select id_cliente as to_field
+    from `data-transformation-486715`.`exam2_transformed`.`stg_customers`
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:34.503303 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:34.635277 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:5d4fbb5c-efe8-4727-acaa-ef47d1caf481&page=queryresults
+[0m12:15:34.925009 [debug] [Thread-2 (]: SQL status: OK in 0.289 seconds
+[0m12:15:35.465535 [info ] [Thread-2 (]: 29 of 40 PASS relationships_int_orders_shippers_id_transporte__id_transporte__ref_stg_shippers_  [[32mPASS[0m in 2.17s]
+[0m12:15:35.466043 [debug] [Thread-2 (]: Finished running node test.my_new_project.relationships_int_orders_shippers_id_transporte__id_transporte__ref_stg_shippers_.c4768e2f2f
+[0m12:15:35.466334 [debug] [Thread-2 (]: Began running node test.my_new_project.relationships_stg_orders_fk_empleado__id_empleado__ref_stg_employees_.0b162d3703
+[0m12:15:35.466629 [info ] [Thread-2 (]: 31 of 40 START test relationships_stg_orders_fk_empleado__id_empleado__ref_stg_employees_  [RUN]
+[0m12:15:35.467117 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.relationships_int_orders_shippers_id_transporte__id_transporte__ref_stg_shippers_.c4768e2f2f, now test.my_new_project.relationships_stg_orders_fk_empleado__id_empleado__ref_stg_employees_.0b162d3703)
+[0m12:15:35.467401 [debug] [Thread-2 (]: Began compiling node test.my_new_project.relationships_stg_orders_fk_empleado__id_empleado__ref_stg_employees_.0b162d3703
+[0m12:15:35.471603 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.relationships_stg_orders_fk_empleado__id_empleado__ref_stg_employees_.0b162d3703"
+[0m12:15:35.472255 [debug] [Thread-2 (]: Began executing node test.my_new_project.relationships_stg_orders_fk_empleado__id_empleado__ref_stg_employees_.0b162d3703
+[0m12:15:35.474583 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.relationships_stg_orders_fk_empleado__id_empleado__ref_stg_employees_.0b162d3703"
+[0m12:15:35.475143 [debug] [Thread-2 (]: On test.my_new_project.relationships_stg_orders_fk_empleado__id_empleado__ref_stg_employees_.0b162d3703: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.relationships_stg_orders_fk_empleado__id_empleado__ref_stg_employees_.0b162d3703"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select fk_empleado as from_field
+    from `data-transformation-486715`.`exam2_transformed`.`stg_orders`
+    where fk_empleado is not null
+),
+
+parent as (
+    select id_empleado as to_field
+    from `data-transformation-486715`.`exam2_transformed`.`stg_employees`
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:35.475495 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:35.743328 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:12fd50a1-e343-479d-9268-64bc0b3c33e7&page=queryresults
+[0m12:15:35.944791 [debug] [Thread-1 (]: SQL status: OK in 0.200 seconds
+[0m12:15:36.487633 [info ] [Thread-1 (]: 30 of 40 PASS relationships_stg_orders_fk_cliente__id_cliente__ref_stg_customers_  [[32mPASS[0m in 1.99s]
+[0m12:15:36.488114 [debug] [Thread-1 (]: Finished running node test.my_new_project.relationships_stg_orders_fk_cliente__id_cliente__ref_stg_customers_.14fbf03174
+[0m12:15:36.488400 [debug] [Thread-1 (]: Began running node test.my_new_project.relationships_stg_orders_fk_transporte__id_transporte__ref_stg_shippers_.c7efc8fd00
+[0m12:15:36.488725 [info ] [Thread-1 (]: 32 of 40 START test relationships_stg_orders_fk_transporte__id_transporte__ref_stg_shippers_  [RUN]
+[0m12:15:36.489063 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.relationships_stg_orders_fk_cliente__id_cliente__ref_stg_customers_.14fbf03174, now test.my_new_project.relationships_stg_orders_fk_transporte__id_transporte__ref_stg_shippers_.c7efc8fd00)
+[0m12:15:36.489347 [debug] [Thread-1 (]: Began compiling node test.my_new_project.relationships_stg_orders_fk_transporte__id_transporte__ref_stg_shippers_.c7efc8fd00
+[0m12:15:36.492796 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.relationships_stg_orders_fk_transporte__id_transporte__ref_stg_shippers_.c7efc8fd00"
+[0m12:15:36.493209 [debug] [Thread-1 (]: Began executing node test.my_new_project.relationships_stg_orders_fk_transporte__id_transporte__ref_stg_shippers_.c7efc8fd00
+[0m12:15:36.494791 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.relationships_stg_orders_fk_transporte__id_transporte__ref_stg_shippers_.c7efc8fd00"
+[0m12:15:36.495245 [debug] [Thread-1 (]: On test.my_new_project.relationships_stg_orders_fk_transporte__id_transporte__ref_stg_shippers_.c7efc8fd00: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.relationships_stg_orders_fk_transporte__id_transporte__ref_stg_shippers_.c7efc8fd00"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select fk_transporte as from_field
+    from `data-transformation-486715`.`exam2_transformed`.`stg_orders`
+    where fk_transporte is not null
+),
+
+parent as (
+    select id_transporte as to_field
+    from `data-transformation-486715`.`exam2_transformed`.`stg_shippers`
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:36.495580 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:36.657897 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:b6ea1bdc-4c54-4013-9584-53cf4d2ddb56&page=queryresults
+[0m12:15:36.870306 [debug] [Thread-2 (]: SQL status: OK in 0.212 seconds
+[0m12:15:37.466202 [info ] [Thread-2 (]: 31 of 40 PASS relationships_stg_orders_fk_empleado__id_empleado__ref_stg_employees_  [[32mPASS[0m in 2.00s]
+[0m12:15:37.466992 [debug] [Thread-2 (]: Finished running node test.my_new_project.relationships_stg_orders_fk_empleado__id_empleado__ref_stg_employees_.0b162d3703
+[0m12:15:37.467448 [debug] [Thread-2 (]: Began running node test.my_new_project.shipper_ranking_non_negative_orders
+[0m12:15:37.467902 [info ] [Thread-2 (]: 33 of 40 START test shipper_ranking_non_negative_orders ........................ [RUN]
+[0m12:15:37.468295 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.relationships_stg_orders_fk_empleado__id_empleado__ref_stg_employees_.0b162d3703, now test.my_new_project.shipper_ranking_non_negative_orders)
+[0m12:15:37.468619 [debug] [Thread-2 (]: Began compiling node test.my_new_project.shipper_ranking_non_negative_orders
+[0m12:15:37.470769 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.shipper_ranking_non_negative_orders"
+[0m12:15:37.471248 [debug] [Thread-2 (]: Began executing node test.my_new_project.shipper_ranking_non_negative_orders
+[0m12:15:37.473232 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.shipper_ranking_non_negative_orders"
+[0m12:15:37.473868 [debug] [Thread-2 (]: On test.my_new_project.shipper_ranking_non_negative_orders: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.shipper_ranking_non_negative_orders"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  -- Test fails if aggregated order count becomes negative.
+SELECT *
+FROM `data-transformation-486715`.`exam2_transformed`.`shipper_ranking`
+WHERE cantidad_pedidos < 0
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:37.474304 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:37.700656 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:7d410c2f-7615-4ff6-acc3-9610bdf4ff37&page=queryresults
+[0m12:15:37.945213 [debug] [Thread-1 (]: SQL status: OK in 0.244 seconds
+[0m12:15:38.448728 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:80d1dbd4-fe8e-4023-8f5c-16009469b3f1&page=queryresults
+[0m12:15:38.466422 [info ] [Thread-1 (]: 32 of 40 PASS relationships_stg_orders_fk_transporte__id_transporte__ref_stg_shippers_  [[32mPASS[0m in 1.98s]
+[0m12:15:38.467429 [debug] [Thread-1 (]: Finished running node test.my_new_project.relationships_stg_orders_fk_transporte__id_transporte__ref_stg_shippers_.c7efc8fd00
+[0m12:15:38.467967 [debug] [Thread-1 (]: Began running node test.my_new_project.unique_int_customers_in_eu_id_cliente.ae6f176568
+[0m12:15:38.468495 [info ] [Thread-1 (]: 34 of 40 START test unique_int_customers_in_eu_id_cliente ...................... [RUN]
+[0m12:15:38.468979 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.relationships_stg_orders_fk_transporte__id_transporte__ref_stg_shippers_.c7efc8fd00, now test.my_new_project.unique_int_customers_in_eu_id_cliente.ae6f176568)
+[0m12:15:38.469433 [debug] [Thread-1 (]: Began compiling node test.my_new_project.unique_int_customers_in_eu_id_cliente.ae6f176568
+[0m12:15:38.477808 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.unique_int_customers_in_eu_id_cliente.ae6f176568"
+[0m12:15:38.478559 [debug] [Thread-1 (]: Began executing node test.my_new_project.unique_int_customers_in_eu_id_cliente.ae6f176568
+[0m12:15:38.482171 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.unique_int_customers_in_eu_id_cliente.ae6f176568"
+[0m12:15:38.482901 [debug] [Thread-1 (]: On test.my_new_project.unique_int_customers_in_eu_id_cliente.ae6f176568: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.unique_int_customers_in_eu_id_cliente.ae6f176568"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with dbt_test__target as (
+
+  select id_cliente as unique_field
+  from `data-transformation-486715`.`exam2_transformed`.`int_customers_in_eu`
+  where id_cliente is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:38.483375 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:38.678640 [debug] [Thread-2 (]: SQL status: OK in 0.229 seconds
+[0m12:15:39.214713 [info ] [Thread-2 (]: 33 of 40 PASS shipper_ranking_non_negative_orders .............................. [[32mPASS[0m in 1.75s]
+[0m12:15:39.215801 [debug] [Thread-2 (]: Finished running node test.my_new_project.shipper_ranking_non_negative_orders
+[0m12:15:39.216444 [debug] [Thread-2 (]: Began running node test.my_new_project.unique_int_orders_employees_id_pedido.806b625a4f
+[0m12:15:39.217051 [info ] [Thread-2 (]: 35 of 40 START test unique_int_orders_employees_id_pedido ...................... [RUN]
+[0m12:15:39.217593 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.shipper_ranking_non_negative_orders, now test.my_new_project.unique_int_orders_employees_id_pedido.806b625a4f)
+[0m12:15:39.218030 [debug] [Thread-2 (]: Began compiling node test.my_new_project.unique_int_orders_employees_id_pedido.806b625a4f
+[0m12:15:39.221321 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.unique_int_orders_employees_id_pedido.806b625a4f"
+[0m12:15:39.221872 [debug] [Thread-2 (]: Began executing node test.my_new_project.unique_int_orders_employees_id_pedido.806b625a4f
+[0m12:15:39.223616 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.unique_int_orders_employees_id_pedido.806b625a4f"
+[0m12:15:39.224140 [debug] [Thread-2 (]: On test.my_new_project.unique_int_orders_employees_id_pedido.806b625a4f: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.unique_int_orders_employees_id_pedido.806b625a4f"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with dbt_test__target as (
+
+  select id_pedido as unique_field
+  from `data-transformation-486715`.`exam2_transformed`.`int_orders_employees`
+  where id_pedido is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:39.224507 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:39.890654 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:dbb2a8ee-f6a0-4729-898c-7649d2bbaa4d&page=queryresults
+[0m12:15:40.125236 [debug] [Thread-1 (]: SQL status: OK in 0.233 seconds
+[0m12:15:40.235710 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:84483e18-a1ca-4bcd-9cd3-220f3da0ef86&page=queryresults
+[0m12:15:40.446252 [debug] [Thread-2 (]: SQL status: OK in 0.210 seconds
+[0m12:15:40.625997 [info ] [Thread-1 (]: 34 of 40 PASS unique_int_customers_in_eu_id_cliente ............................ [[32mPASS[0m in 2.16s]
+[0m12:15:40.626632 [debug] [Thread-1 (]: Finished running node test.my_new_project.unique_int_customers_in_eu_id_cliente.ae6f176568
+[0m12:15:40.626972 [debug] [Thread-1 (]: Began running node test.my_new_project.unique_int_orders_shippers_id_pedido.7abef6e6c4
+[0m12:15:40.627300 [info ] [Thread-1 (]: 36 of 40 START test unique_int_orders_shippers_id_pedido ....................... [RUN]
+[0m12:15:40.627646 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.unique_int_customers_in_eu_id_cliente.ae6f176568, now test.my_new_project.unique_int_orders_shippers_id_pedido.7abef6e6c4)
+[0m12:15:40.627897 [debug] [Thread-1 (]: Began compiling node test.my_new_project.unique_int_orders_shippers_id_pedido.7abef6e6c4
+[0m12:15:40.631343 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.unique_int_orders_shippers_id_pedido.7abef6e6c4"
+[0m12:15:40.632009 [debug] [Thread-1 (]: Began executing node test.my_new_project.unique_int_orders_shippers_id_pedido.7abef6e6c4
+[0m12:15:40.634678 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.unique_int_orders_shippers_id_pedido.7abef6e6c4"
+[0m12:15:40.635308 [debug] [Thread-1 (]: On test.my_new_project.unique_int_orders_shippers_id_pedido.7abef6e6c4: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.unique_int_orders_shippers_id_pedido.7abef6e6c4"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with dbt_test__target as (
+
+  select id_pedido as unique_field
+  from `data-transformation-486715`.`exam2_transformed`.`int_orders_shippers`
+  where id_pedido is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:40.635810 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:40.918496 [info ] [Thread-2 (]: 35 of 40 PASS unique_int_orders_employees_id_pedido ............................ [[32mPASS[0m in 1.70s]
+[0m12:15:40.919804 [debug] [Thread-2 (]: Finished running node test.my_new_project.unique_int_orders_employees_id_pedido.806b625a4f
+[0m12:15:40.920546 [debug] [Thread-2 (]: Began running node test.my_new_project.unique_stg_customers_id_cliente.d8c43fe2ac
+[0m12:15:40.921382 [info ] [Thread-2 (]: 37 of 40 START test unique_stg_customers_id_cliente ............................ [RUN]
+[0m12:15:40.922217 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.unique_int_orders_employees_id_pedido.806b625a4f, now test.my_new_project.unique_stg_customers_id_cliente.d8c43fe2ac)
+[0m12:15:40.922964 [debug] [Thread-2 (]: Began compiling node test.my_new_project.unique_stg_customers_id_cliente.d8c43fe2ac
+[0m12:15:40.926694 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.unique_stg_customers_id_cliente.d8c43fe2ac"
+[0m12:15:40.927283 [debug] [Thread-2 (]: Began executing node test.my_new_project.unique_stg_customers_id_cliente.d8c43fe2ac
+[0m12:15:40.928983 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.unique_stg_customers_id_cliente.d8c43fe2ac"
+[0m12:15:40.929567 [debug] [Thread-2 (]: On test.my_new_project.unique_stg_customers_id_cliente.d8c43fe2ac: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.unique_stg_customers_id_cliente.d8c43fe2ac"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with dbt_test__target as (
+
+  select id_cliente as unique_field
+  from `data-transformation-486715`.`exam2_transformed`.`stg_customers`
+  where id_cliente is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:40.929912 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:41.926177 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:da4fd7ec-3413-4a8a-a2fd-dea01710d1ea&page=queryresults
+[0m12:15:41.999270 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:04edb3c0-3751-4f19-8736-99f8450a2ee1&page=queryresults
+[0m12:15:42.146255 [debug] [Thread-1 (]: SQL status: OK in 0.219 seconds
+[0m12:15:42.245020 [debug] [Thread-2 (]: SQL status: OK in 0.245 seconds
+[0m12:15:42.717517 [info ] [Thread-1 (]: 36 of 40 PASS unique_int_orders_shippers_id_pedido ............................. [[32mPASS[0m in 2.09s]
+[0m12:15:42.718766 [debug] [Thread-1 (]: Finished running node test.my_new_project.unique_int_orders_shippers_id_pedido.7abef6e6c4
+[0m12:15:42.719513 [debug] [Thread-1 (]: Began running node test.my_new_project.unique_stg_employees_id_empleado.298b8d69f2
+[0m12:15:42.720217 [info ] [Thread-1 (]: 38 of 40 START test unique_stg_employees_id_empleado ........................... [RUN]
+[0m12:15:42.720924 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.unique_int_orders_shippers_id_pedido.7abef6e6c4, now test.my_new_project.unique_stg_employees_id_empleado.298b8d69f2)
+[0m12:15:42.721401 [debug] [Thread-1 (]: Began compiling node test.my_new_project.unique_stg_employees_id_empleado.298b8d69f2
+[0m12:15:42.725216 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.unique_stg_employees_id_empleado.298b8d69f2"
+[0m12:15:42.725878 [debug] [Thread-1 (]: Began executing node test.my_new_project.unique_stg_employees_id_empleado.298b8d69f2
+[0m12:15:42.727667 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.unique_stg_employees_id_empleado.298b8d69f2"
+[0m12:15:42.728156 [debug] [Thread-1 (]: On test.my_new_project.unique_stg_employees_id_empleado.298b8d69f2: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.unique_stg_employees_id_empleado.298b8d69f2"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with dbt_test__target as (
+
+  select id_empleado as unique_field
+  from `data-transformation-486715`.`exam2_transformed`.`stg_employees`
+  where id_empleado is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:42.728458 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:42.852588 [info ] [Thread-2 (]: 37 of 40 PASS unique_stg_customers_id_cliente .................................. [[32mPASS[0m in 1.93s]
+[0m12:15:42.853349 [debug] [Thread-2 (]: Finished running node test.my_new_project.unique_stg_customers_id_cliente.d8c43fe2ac
+[0m12:15:42.853811 [debug] [Thread-2 (]: Began running node test.my_new_project.unique_stg_orders_id_pedido.c22f67cc6b
+[0m12:15:42.854205 [info ] [Thread-2 (]: 39 of 40 START test unique_stg_orders_id_pedido ................................ [RUN]
+[0m12:15:42.854685 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.my_new_project.unique_stg_customers_id_cliente.d8c43fe2ac, now test.my_new_project.unique_stg_orders_id_pedido.c22f67cc6b)
+[0m12:15:42.855093 [debug] [Thread-2 (]: Began compiling node test.my_new_project.unique_stg_orders_id_pedido.c22f67cc6b
+[0m12:15:42.859597 [debug] [Thread-2 (]: Writing injected SQL for node "test.my_new_project.unique_stg_orders_id_pedido.c22f67cc6b"
+[0m12:15:42.860313 [debug] [Thread-2 (]: Began executing node test.my_new_project.unique_stg_orders_id_pedido.c22f67cc6b
+[0m12:15:42.862098 [debug] [Thread-2 (]: Writing runtime sql for node "test.my_new_project.unique_stg_orders_id_pedido.c22f67cc6b"
+[0m12:15:42.862579 [debug] [Thread-2 (]: On test.my_new_project.unique_stg_orders_id_pedido.c22f67cc6b: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.unique_stg_orders_id_pedido.c22f67cc6b"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with dbt_test__target as (
+
+  select id_pedido as unique_field
+  from `data-transformation-486715`.`exam2_transformed`.`stg_orders`
+  where id_pedido is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:42.862905 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:15:43.941668 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:0fadd076-2c68-4d2c-966f-691ff016493f&page=queryresults
+[0m12:15:44.038028 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:d22db4a4-895f-4918-a74d-cffe460f6d9a&page=queryresults
+[0m12:15:44.195345 [debug] [Thread-1 (]: SQL status: OK in 0.253 seconds
+[0m12:15:44.259372 [debug] [Thread-2 (]: SQL status: OK in 0.220 seconds
+[0m12:15:44.778251 [info ] [Thread-1 (]: 38 of 40 PASS unique_stg_employees_id_empleado ................................. [[32mPASS[0m in 2.06s]
+[0m12:15:44.779389 [debug] [Thread-1 (]: Finished running node test.my_new_project.unique_stg_employees_id_empleado.298b8d69f2
+[0m12:15:44.780041 [debug] [Thread-1 (]: Began running node test.my_new_project.unique_stg_shippers_id_transporte.ae33d9cb1a
+[0m12:15:44.780656 [info ] [Thread-1 (]: 40 of 40 START test unique_stg_shippers_id_transporte .......................... [RUN]
+[0m12:15:44.781227 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_new_project.unique_stg_employees_id_empleado.298b8d69f2, now test.my_new_project.unique_stg_shippers_id_transporte.ae33d9cb1a)
+[0m12:15:44.781669 [debug] [Thread-1 (]: Began compiling node test.my_new_project.unique_stg_shippers_id_transporte.ae33d9cb1a
+[0m12:15:44.784868 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_new_project.unique_stg_shippers_id_transporte.ae33d9cb1a"
+[0m12:15:44.785271 [debug] [Thread-1 (]: Began executing node test.my_new_project.unique_stg_shippers_id_transporte.ae33d9cb1a
+[0m12:15:44.787017 [debug] [Thread-1 (]: Writing runtime sql for node "test.my_new_project.unique_stg_shippers_id_transporte.ae33d9cb1a"
+[0m12:15:44.787487 [debug] [Thread-1 (]: On test.my_new_project.unique_stg_shippers_id_transporte.ae33d9cb1a: /* {"app": "dbt", "dbt_version": "1.11.7", "profile_name": "dbt_demo", "target_name": "dev", "node_id": "test.my_new_project.unique_stg_shippers_id_transporte.ae33d9cb1a"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with dbt_test__target as (
+
+  select id_transporte as unique_field
+  from `data-transformation-486715`.`exam2_transformed`.`stg_shippers`
+  where id_transporte is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m12:15:44.787834 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:15:44.820283 [info ] [Thread-2 (]: 39 of 40 PASS unique_stg_orders_id_pedido ...................................... [[32mPASS[0m in 1.97s]
+[0m12:15:44.820759 [debug] [Thread-2 (]: Finished running node test.my_new_project.unique_stg_orders_id_pedido.c22f67cc6b
+[0m12:15:46.054491 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-transformation-486715&j=bq:US:af404b33-8e3a-4370-8145-9314ff4dfcea&page=queryresults
+[0m12:15:46.267401 [debug] [Thread-1 (]: SQL status: OK in 0.212 seconds
+[0m12:15:46.806941 [info ] [Thread-1 (]: 40 of 40 PASS unique_stg_shippers_id_transporte ................................ [[32mPASS[0m in 2.02s]
+[0m12:15:46.807483 [debug] [Thread-1 (]: Finished running node test.my_new_project.unique_stg_shippers_id_transporte.ae33d9cb1a
+[0m12:15:46.808622 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m12:15:46.842860 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:15:46.843173 [debug] [MainThread]: Connection 'test.my_new_project.unique_stg_shippers_id_transporte.ae33d9cb1a' was properly closed.
+[0m12:15:46.843379 [debug] [MainThread]: Connection 'test.my_new_project.unique_stg_orders_id_pedido.c22f67cc6b' was properly closed.
+[0m12:15:46.843643 [info ] [MainThread]: 
+[0m12:15:46.843891 [info ] [MainThread]: Finished running 40 data tests in 0 hours 0 minutes and 43.79 seconds (43.79s).
+[0m12:15:46.846670 [debug] [MainThread]: Command end result
+[0m12:15:46.865845 [debug] [MainThread]: Wrote artifact WritableManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/manifest.json
+[0m12:15:46.867076 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/semantic_manifest.json
+[0m12:15:46.872208 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/run_results.json
+[0m12:15:46.872500 [info ] [MainThread]: 
+[0m12:15:46.872748 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:15:46.872963 [info ] [MainThread]: 
+[0m12:15:46.873170 [info ] [MainThread]: Done. PASS=40 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=40
+[0m12:15:46.873556 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 45.001198, "process_in_blocks": "480", "process_kernel_time": 0.274344, "process_mem_max_rss": "246760", "process_out_blocks": "4104", "process_user_time": 6.515881}
+[0m12:15:46.873837 [debug] [MainThread]: Command `dbt test` succeeded at 12:15:46.873781 after 45.00 seconds
+[0m12:15:46.874076 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03c5a43ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03c5a97cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03c5dd9190>]}
+[0m12:15:46.874325 [debug] [MainThread]: Flushing usage events
+[0m12:15:47.115043 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:21:00.627346 [debug] [MainThread]: BigQuery adapter: Retry attempt 1 of 1 after error: RetryError('Timeout of 600.0s exceeded')
+[0m12:23:41.410168 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3c9d654fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3c9d655390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3c9d654a50>]}
+
+
+============================== 12:23:41.413800 | f1297f96-35c1-418a-9928-185f08d6d3f5 ==============================
+[0m12:23:41.413800 [info ] [MainThread]: Running with dbt=1.11.7
+[0m12:23:41.414261 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'send_anonymous_usage_stats': 'True', 'log_path': '/home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/logs', 'no_print': 'None', 'warn_error': 'None', 'use_colors': 'True', 'profiles_dir': '/home/yisusparker/.dbt', 'introspect': 'True', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'static_parser': 'True', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'log_format': 'default', 'debug': 'False', 'printer_width': '80', 'partial_parse': 'True', 'write_json': 'True', 'invocation_command': 'dbt parse --project-dir /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam', 'target_path': 'None', 'indirect_selection': 'eager', 'version_check': 'True', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m12:23:42.254432 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f1297f96-35c1-418a-9928-185f08d6d3f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3c70250e90>]}
+[0m12:23:42.293481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f1297f96-35c1-418a-9928-185f08d6d3f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ca046d1d0>]}
+[0m12:23:42.293996 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m12:23:42.381370 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m12:23:42.466608 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m12:23:42.467031 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f1297f96-35c1-418a-9928-185f08d6d3f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3c9e486e90>]}
+[0m12:23:43.498131 [warn ] [MainThread]: [[33mWARNING[0m][MissingArgumentsPropertyInGenericTestDeprecation]: Deprecated
+functionality
+Found top-level arguments to test `relationships` defined on
+'int_orders_employees' in package 'my_new_project'
+(models/intermediate/schema.yml). Arguments to generic tests should be nested
+under the `arguments` property.
+[0m12:23:43.498660 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'f1297f96-35c1-418a-9928-185f08d6d3f5', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3c6a00ac50>]}
+[0m12:23:43.692319 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f1297f96-35c1-418a-9928-185f08d6d3f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3c69e21fd0>]}
+[0m12:23:43.695001 [info ] [MainThread]: Performance info: /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/perf_info.json
+[0m12:23:43.765770 [debug] [MainThread]: Wrote artifact WritableManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/manifest.json
+[0m12:23:43.767273 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/semantic_manifest.json
+[0m12:23:43.767789 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- MissingArgumentsPropertyInGenericTestDeprecation: 9 occurrences
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m12:23:43.768259 [debug] [MainThread]: Resource report: {"command_name": "parse", "command_success": true, "command_wall_clock_time": 2.3993826, "process_in_blocks": "2256", "process_kernel_time": 0.201805, "process_mem_max_rss": "240004", "process_out_blocks": "2832", "process_user_time": 4.072853}
+[0m12:23:43.768628 [debug] [MainThread]: Command `dbt parse` succeeded at 12:23:43.768564 after 2.40 seconds
+[0m12:23:43.768945 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3c9d47fad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ca1cf9010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ca1cf9bd0>]}
+[0m12:23:43.769254 [debug] [MainThread]: Flushing usage events
+[0m12:23:44.201142 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:24:50.169706 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60bc665f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60bd552fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60bc6baad0>]}
+
+
+============================== 12:24:50.172752 | 4186178f-98b2-428c-a441-c2fd6173b36d ==============================
+[0m12:24:50.172752 [info ] [MainThread]: Running with dbt=1.11.7
+[0m12:24:50.173252 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'version_check': 'True', 'printer_width': '80', 'no_print': 'None', 'empty': 'None', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'log_format': 'default', 'indirect_selection': 'eager', 'debug': 'False', 'log_cache_events': 'False', 'static_parser': 'True', 'log_path': '/home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/logs', 'cache_selected_only': 'False', 'fail_fast': 'False', 'target_path': 'None', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'introspect': 'True', 'profiles_dir': '/home/yisusparker/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt test --project-dir /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam'}
+[0m12:24:51.005487 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4186178f-98b2-428c-a441-c2fd6173b36d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60bcfcb150>]}
+[0m12:24:51.045948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4186178f-98b2-428c-a441-c2fd6173b36d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60bf5e3ad0>]}
+[0m12:24:51.046609 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m12:24:51.119750 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m12:24:51.207587 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:24:51.207965 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m12:24:51.208211 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:24:51.247678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4186178f-98b2-428c-a441-c2fd6173b36d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f608acb3ad0>]}
+[0m12:24:51.376367 [debug] [MainThread]: Wrote artifact WritableManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/manifest.json
+[0m12:24:51.377669 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/yisusparker/Dev/universidad/transformacion-de-datos/dbt_exam/dbt_project_exam/target/semantic_manifest.json
+[0m12:24:51.396181 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4186178f-98b2-428c-a441-c2fd6173b36d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f608ad1ad90>]}
+[0m12:24:51.396668 [info ] [MainThread]: Found 10 models, 40 data tests, 1 seed, 4 sources, 541 macros
+[0m12:24:51.396946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4186178f-98b2-428c-a441-c2fd6173b36d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60bce3c810>]}
+[0m12:24:51.399213 [info ] [MainThread]: 
+[0m12:24:51.399517 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m12:24:51.399740 [info ] [MainThread]: 
+[0m12:24:51.400087 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m12:24:51.403192 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_data-transformation-486715_exam2_transformed'
+[0m12:24:51.403872 [debug] [ThreadPool]: Opening a new connection, currently in state init

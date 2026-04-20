@@ -39,5 +39,10 @@ vars:
   eu_member: EU
   discount: 0.95
   recog_threshold: 25
-  
+
+# Default severity for data tests (error = falla el comando; warn = solo advertencia).
+# Tests individuales pueden sobrescribir con config.severity en schema.yml o en tests SQL.
+tests:
+  my_new_project:
+    +severity: error
 
